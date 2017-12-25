@@ -1,0 +1,319 @@
+Id,Title,Labels,Iteration,Iteration Start,Iteration End,Type,Estimate,Current State,Created at,Accepted at,Deadline,Requested By,Description,URL,Owned By,Task,Task Status,Task,Task Status
+139455685,Deploy base application to Heroku,"",1,"Mar 6, 2017","Mar 19, 2017",chore,,unstarted,"Feb 9, 2017",,,Adebayo,"### Why this is important
+This will enable other users access and use the application.
+
+**Acceptance Criteria**
+GIVEN application URLs
+WHEN user navigates to provided URLs in browser
+THEN user should access the live application
+
+GIVEN a developer raises a `Pull Request`
+WHEN a review app is automatically created
+THEN review app should mirror the Pull Request being raised
+
+### Dev Notes
+`staging` and `production` environments are to be setup and URLs should follow the naming pattern below:
+- `<repo-name>-staging.herokuapp.com` for `staging`
+- `<repo-name>.herokuapp.com` for `production`",https://www.pivotaltracker.com/story/show/139455685,
+139454723,Configure ESLint,"",1,"Mar 6, 2017","Mar 19, 2017",chore,,unstarted,"Feb 9, 2017",,,Adebayo,"### Why this is important
+ESLint is the required linter for the project. It'll help check for style violations and flag them.
+
+#### Dev Notes
+We'll be using the style guide configuration below:
+```{
+  ""root"": true,
+  ""extends"": ""airbnb-base"",
+  ""env"": {
+    ""node"": true,
+    ""es6"": true,
+    ""mocha"": true
+  },
+  ""rules"": {
+    ""one-var"": 0,
+    ""one-var-declaration-per-line"": 0,
+    ""new-cap"": 0,
+    ""consistent-return"": 0,
+    ""no-param-reassign"": 0,
+    ""comma-dangle"": 0,
+    ""curly"": [""error"", ""multi-line""],
+    ""import/no-unresolved"": [2, { commonjs: true }],
+    ""no-shadow"": [""error"", { ""allow"": [""req"", ""res"", ""err""] }],
+    ""valid-jsdoc"": [""error"", {
+      ""requireReturn"": true,
+      ""requireReturnType"": true,
+      ""requireParamDescription"": false,
+      ""requireReturnDescription"": true
+    }],
+    ""require-jsdoc"": [""error"", {
+        ""require"": {
+            ""FunctionDeclaration"": true,
+            ""MethodDefinition"": true,
+            ""ClassDeclaration"": true
+        }
+    }]
+  }
+}```
+
+#### Useful Links
+[AirBnB Javascript](https://github.com/airbnb/javascript)
+[ESLint](https://www.npmjs.com/package/eslint)
+[ESLint Config AirBnB](https://www.npmjs.com/package/eslint-config-airbnb)
+[ESLint Plugin Import](https://www.npmjs.com/package/eslint-plugin-import)",https://www.pivotaltracker.com/story/show/139454723,
+137876949,Link Github with Slack,"",1,"Mar 6, 2017","Mar 19, 2017",chore,,unstarted,"Jan 18, 2017",,,Kesiena Akpobome,"### Why this is important
+
+When there is activity on Github, they automatically show up as updates in a dedicated Slack channel (separate from the normal team channel, same as the one used for the pivotal updates)",https://www.pivotaltracker.com/story/show/137876949,
+137876875,Link Pivotal Tracker with Slack,"",1,"Mar 6, 2017","Mar 19, 2017",chore,,unstarted,"Jan 18, 2017",,,Kesiena Akpobome,"### Why this is important
+
+When there is activity on Pivotal tracker, updates automatically show up in a dedicated Slack channel (separate from the team channel).",https://www.pivotaltracker.com/story/show/137876875,
+137876761,Link Pivotal Tracker with Github,"",1,"Mar 6, 2017","Mar 19, 2017",chore,,unstarted,"Jan 18, 2017",,,Kesiena Akpobome,"### Why this is important
+
+When PRs are made, they automatically show up as comments/commit with their associated stories, giving more context to the story.",https://www.pivotaltracker.com/story/show/137876761,
+130335171,Integrate TravisCI with readme badge,"",1,"Mar 6, 2017","Mar 19, 2017",chore,,unstarted,"Sep 14, 2016",,,Kesiena Akpobome,"### Why is this important?
+This is required to automatically run tests and other preliminary build steps requiredto ship the next iteration of the product",https://www.pivotaltracker.com/story/show/130335171,
+130334903,Integrate HoundCI with badge attached to readme,"",1,"Mar 6, 2017","Mar 19, 2017",chore,,unstarted,"Sep 14, 2016",,,Kesiena Akpobome,"### Why this important?
+This is to automatically validate the codebase with standard style guides",https://www.pivotaltracker.com/story/show/130334903,
+130332983,Setup unit testing for the front end,"",1,"Mar 6, 2017","Mar 19, 2017",chore,,unstarted,"Sep 14, 2016",,,Kesiena Akpobome,"### Why is this important?
+To ensure the front end has all functionality work the way it was intended. Use Jasmine and Karma (with PhantomJS/Chrome/Firefox) to setup front end testing environment.",https://www.pivotaltracker.com/story/show/130332983,
+129763735,Convert from Grunt to Gulp taskrunner,"",1,"Mar 6, 2017","Mar 19, 2017",chore,,unstarted,"Sep 4, 2016",,,Kesiena Akpobome,"### Why this is important
+
+Grunt is an older task runner than Gulp; with Gulp, the syntax is much simpler to comprehend and it uses pipe streams which makes it inherently faster.",https://www.pivotaltracker.com/story/show/129763735,
+130337175,Integrate Coveralls code coverage service,"",1,"Mar 6, 2017","Mar 19, 2017",chore,,unstarted,"Sep 14, 2016",,,Kesiena Akpobome,"###Why is this important?
+This is to ensure we are properly informed just how well our code base is tested which in turn provides quality assurance for the product",https://www.pivotaltracker.com/story/show/130337175,
+130336965,Users should receive a JWT on successful login,"",1,"Mar 6, 2017","Mar 19, 2017",feature,2,unstarted,"Sep 14, 2016",,,Kesiena Akpobome,"Users once authenticated via the login api should be returned a JWT to be required on subsequent call to all other endpoints that require authentication.
+
+**Acceptance Criteria**
+GIVEN user successfully signs up or logs in
+WHEN user passes appropriate JSON object to the /api/auth/login endpoint
+THEN user should receive a JWT as the response
+
+**DEV NOTES**
+All endpoints are to have the /api prefix and would be an extension of the current code base as opposed  to replacing the existent authentication strategies.
+The app should no longer use sessions, but should use the newly implemented JWT strategy for authentication.
+
+DESIGN Notes
+NA",https://www.pivotaltracker.com/story/show/130336965,
+130337369,Users should receive a JWT on successful signup,"",1,"Mar 6, 2017","Mar 19, 2017",feature,2,unstarted,"Sep 14, 2016",,,Kesiena Akpobome,"Users once authenticated via the signup api should be returned a JWT to be required on subsequent call to all other endpoints that require authentication.
+
+**Acceptance Criteria**
+GIVEN user successfully signs up or logs in
+WHEN user passes appropriate JSON object to the  /api/auth/signup endpoint
+THEN user should receive a JWT as the response
+
+**DEV NOTES**
+All endpoints are to have the /api prefix and would be an extension of the current code base as opposed  to replacing the existent authentication strategies.
+The app should no longer use sessions, but should use the newly implemented JWT strategy.
+
+**DESIGN NOTES**
+NA",https://www.pivotaltracker.com/story/show/130337369,
+129539513,Users should be able to send invites to at most 11 people other than themselves,"",1,"Mar 6, 2017","Mar 19, 2017",feature,2,unstarted,"Aug 31, 2016",,,Kesiena Akpobome,"Users should be able to invite people to their game up to a maximum of 11 other people, so no game can exceed 12 people in total and must have at least 3 players.
+
+Acceptance Criteria
+GIVEN has created a game and is inviting friends
+
+WHEN user wants to start the game and there are less than 3 people
+THEN  a popup shows up explaining a minimum of 3 players are required to play the game
+
+WHEN 11 people have been invited, when the 12th user is to be added
+THEN a popup shows up explaining only a maximum of 12 players are allowed per game
+
+
+DEV NOTES
+An authenticated endpoint to search current users would be required at **/api/search/users**
+
+DESIGN Notes
+Use popup designed for the product's theme.
+",https://www.pivotaltracker.com/story/show/129539513,
+129538235,Users should see a landing page with effective UI/UX,"",1,"Mar 6, 2017","Mar 19, 2017",feature,3,unstarted,"Aug 31, 2016",,,Michael Rosenberg,"Users should be able to see an overview of what the game is about, how it's played and how it can be used to donate to charity and also see call to action buttons that lead them to signup or signin
+
+Acceptance Criteria
+GIVEN user navigates to <Heroku production link here>
+WHEN the page loads
+THEN user should see a landing page with proper branding colors and information as stipulated above.
+
+DEV NOTES
+All endpoints are to have the /api prefix and would be an extension of the current code base as opposed  to replacing the existent authentication strategies
+
+DESIGN Notes
+Branding colors and typography need o be decided and documented and must be responsive across all devices. ",https://www.pivotaltracker.com/story/show/129538235,,"Decide on a color scheme of at most 3 compatible colors, with neutrals for everything else ",not completed
+129539301,Users should be able to create/start a new game,"",2,"Mar 20, 2017","Apr 2, 2017",feature,2,unstarted,"Aug 31, 2016",,,Kesiena Akpobome,"Users should be able to start a new game session after login or signup. Currently the game throws you into a new gaming screen and starts the game off immediately, which creates a rather confusing experience for the user.
+
+_Acceptance Criteria_
+GIVEN a user is successfully authenticated
+WHEN when the click an appropriately labelled button
+THEN they start a new game session
+
+**DEV NOTES**
+This requires an authenticated endpoint **/api/games/:id/start** and should be recorded for that user as well as the friends that played in that game and the winner of that game
+
+**DESIGN Notes**
+This would require a modal that let's the user know that clicking the button would start a new game session. The modal would have a dark overlay on the actual game screen, so that it just disappears when a user clicks to start a new game.",https://www.pivotaltracker.com/story/show/129539301,
+130339453,Start upgrade to version 2,"",2,"Mar 20, 2017","Apr 2, 2017",release,,unstarted,"Sep 14, 2016",,,Kesiena Akpobome,Upgrade app gaming interface,https://www.pivotaltracker.com/story/show/130339453,
+129537205,Re-Design UI for user authentication screen,"",2,"Mar 20, 2017","Apr 2, 2017",feature,1,unstarted,"Aug 31, 2016",,,Kesiena Akpobome,"As a user i should see a redesigned(according to material design specs and chosen color scheme) login/signup screen with the option to authenticate via facebook, twitter and google.
+
+_Acceptance Criteria_
+GIVEN a user is directed to an authentication page
+WHEN the user tries to login/signup
+THEN they should see a redesigned interface
+
+**DEV NOTES**
+This should be loaded from the server
+
+**DESIGN Notes**
+Design the page to be in line with chosen brand colors. A mockup should first be designed before it is implemented.",https://www.pivotaltracker.com/story/show/129537205,
+129538421,Users should be quickly and effectively onboarded onto the app,"",2,"Mar 20, 2017","Apr 2, 2017",feature,2,unstarted,"Aug 31, 2016",,,Michael Rosenberg,"As new user I want to see a brief tour of how the game is played and the important controls so that I have sufficient knowledge on how to continue to play the game
+
+_Acceptance Criteria_
+GIVEN I just successfully signed up or just joined a game 
+WHEN I am about to start a new game
+THEN I should be taken on a brief tour of the game, what I need to o to win and important controls to play the game
+
+**DEV NOTES**
+This may require a slider that has control buttons so that each slide is able to pconvey pertinent information to the user
+
+**DESIGN Notes**
+Brand colors, typeface and consistent columns should be utilized to achieve this
+
+**NOTES PM**
+This feature is akin to what Slackfor example would show you as a new user, avery sleek and brief overview of the app and how to find pertinent information",https://www.pivotaltracker.com/story/show/129538421,
+129538541,Re-Design UI for the actual gaming screen,"angular-components, ui-design",2,"Mar 20, 2017","Apr 2, 2017",feature,3,unstarted,"Aug 31, 2016",,,Michael Rosenberg,"As a user after I opt to start a new game, I should see a redesigned interface to play the game 
+
+_Acceptance Criteria_
+GIVEN a user opts to start a new game
+WHEN the modal transitions out
+THEN the newly designed interface should be revealed.
+
+**DEV NOTES**
+The interface would be designed as a composition of different sub components. Depending on the design, the page should be divided into sub components and implemented as components which are then imported into the page.
+
+**NEEDS PM**
+Game interface should have a more modern card game feel like solitaire or some other popular game, with a card deck that's activated on click. It should be designed with the material design spec as the underlying theme.
+
+**NEEDS DESIGN**
+Requires a mockup be drafted before it is actually implemented",https://www.pivotaltracker.com/story/show/129538541,,Screen should have a section for the actual game,not completed,Screen should also have a retractable section for the instant messaging section,not completed
+129540825,CZARs should be able to draw cards by clicking,"",2,"Mar 20, 2017","Apr 2, 2017",feature,1,unstarted,"Aug 31, 2016",,,Michael Rosenberg,"As a CZAR I should be prompted to click to select from the deck of black cards the next question card.
+
+_Acceptance Criteria_
+GIVEN user has been assigned the CZAR
+WHEN user is to pick a card, 
+THEN they are prompted to click to draw the card as opposed to just randomly selecting the card and leaving the CZAR confused about what just happened.
+
+**DEV NOTES**
+The deck would have a click listener that randomly chooses the next card
+
+**DESIGN NOTES**
+A modal/dialog should show up when the user is assigned as the CZAR, prompting them to click the deck of cards.
+
+There should be a deck of black cards. When a user clicks on the deck, the next card should transition in, by **flipping** and consequently reveals the next question.",https://www.pivotaltracker.com/story/show/129540825,
+141399723,Cards should be categorised by region,localization,3,"Apr 3, 2017","Apr 16, 2017",feature,3,unstarted,"Mar 9, 2017",,,Adebayo,"A player who starts a game should have the option of selecting a region for the game. This would ensure the cards are relevant to that particular geographical region.
+
+_Acceptance Criteria_
+GIVEN I'm on the home page
+WHEN I start a new game
+THEN I should be given the option to choose which part of the world I am in
+
+GIVEN I'm playing a game
+WHEN Cards are drawn
+THEN The questions and answers should be related to my region
+
+**DEV NOTES**
+This may require either a dropdown menu or a modal.
+
+**DESIGN Notes**
+A very good, and well coloured UI should be used to select region, and trends
+
+**NOTES PM**",https://www.pivotaltracker.com/story/show/141399723,
+129538715,Users should be able to chat with the group while they are in a game,player-communities,3,"Apr 3, 2017","Apr 16, 2017",feature,3,unstarted,"Aug 31, 2016",,,Michael Rosenberg," As a registered user in a game I want to be able to chat with the other players so that I have a more enjoyable experience using the app
+
+_Acceptance Criteria_
+GIVEN I am a guest or registered user
+WHEN I am in a game
+THEN I can send messages to other users and view sent and received messages in a public chat window
+
+**DEV NOTES**
+Firebase should be used to store the chat threads per game session.
+
+**DESIGN NOTES**
+Chat thread should mimick slack UI. The chat thread panel should be retractable but show indicator when there are unread messages.",https://www.pivotaltracker.com/story/show/129538715,
+129541333,"Registered users should be able to invite other users to connect as ""friends""",player-communities,3,"Apr 3, 2017","Apr 16, 2017",feature,2,unstarted,"Aug 31, 2016",,,Michael Rosenberg," As a registered player in a game I want to be able to save other players as ""friends"" so that I can invite them to future games
+
+_Acceptance Criteria_
+GIVEN I am in a game
+WHEN I click on ""invite players""
+THEN I see a dropdown as I type name of registered users and adds to list of invitees when I click to choose.
+
+**DEV NOTES**
+The invite should send an in-app notification to invitees. The notification should be the equivalent of the invitee clicking the generated invite link.
+
+**DESIGN Notes**
+When user's receive notifications, they should see a count on top of the icon for notifications boldly colored to show new activity. Clicking it should reveal a list of the latest notifications.",https://www.pivotaltracker.com/story/show/129541333,
+129850633,"Registered users should be able to view a a ""game log"" of past games",player-communities,3,"Apr 3, 2017","Apr 16, 2017",feature,1,unstarted,"Sep 6, 2016",,,Michael Rosenberg,"As a registered user I want to view a ""game log"" of previously played games so that I can reference the friends played with, number of rounds and overall winner of the different games played.
+
+_Acceptance Criteria_
+GIVEN I am a registered user that has logged in
+WHEN I click on the ""dashboard"" link from the main navigation
+THEN I see a list of previously played games with details as given above
+
+WHEN I click on the ""dashboard"" link from the main navigation
+THEN I also see the leaderboard for all games played on the platform
+
+WHEN I click on the ""dashboard"" link from the main navigation
+THEN I also see a list of all donations made by the logged in user.
+
+**DEV NOTES**
+This would require authenticated endpoint s
+
+-  **/api/games/history** which returns a complex object of games, friends, rounds and winner.
+
+- **/api/leaderboard** which returns a complex object containing players mapped to number of games won
+
+- **/api/donations** which returns a complex object containing players mapped to an object of all donations made.
+
+**DESIGN NOTES**
+There should be links to the:
+- dashboard screen
+- gaming screen
+
+in the main navigation.
+
+The colors should be consistent with the chosen color scheme of the platform.",https://www.pivotaltracker.com/story/show/129850633,
+129539663,Users should be able to use emojis in the chat window,player-communities,3,"Apr 3, 2017","Apr 16, 2017",feature,1,unstarted,"Aug 31, 2016",,,Michael Rosenberg,"As a user in a game I want to be able to use emojis in the group chat so that I have a more enjoyable and expressive chat experience
+
+_Acceptance Criteria_
+GIVEN I am a guest or registered user
+WHEN I am using the group chat feature
+THEN I can send and receive chats using emojis
+
+**DEV NOTES**
+Include support for unicode chars
+
+**DESIGN NOTES**
+N/A
+",https://www.pivotaltracker.com/story/show/129539663,
+129958605,Define alternatives for increasing donations received through the app,"",3,"Apr 3, 2017","Apr 16, 2017",chore,,unstarted,"Sep 7, 2016",,,Michael Rosenberg,"**Description:** A major are of improvement for CFH is how we attract donations through the app. We need to think through alternatives for features we can implement that will result in more users to donate more money, more often through the app.
+
+**Resources:**",https://www.pivotaltracker.com/story/show/129958605,
+129960965,Agree on and define course of action for increasing donations and roadmap for associated features,"",3,"Apr 3, 2017","Apr 16, 2017",chore,,unstarted,"Sep 7, 2016",,,Michael Rosenberg,"**Description:** Select a course of action based on the features defined in story #129958605 and scope out proposed roadmap with input of PO
+
+**Resources:**",https://www.pivotaltracker.com/story/show/129960965,
+130671511,REFERENCE TEMPLATE FOR STORY NAMING CONVENTION (feature),"",,,,feature,,unscheduled,"Sep 19, 2016",,,Michael Rosenberg,"Title: [Persona name] should (not) be able to [overarching action]
+
+_Business/User Value:_ As [persona] I want to [action by user] so that [value or need met]
+
+_Acceptance Criteria_
+GIVEN [necessary context and preconditions for story]
+WHEN [action]
+THEN [reaction]
+
+**DEV NOTES**
+[Relevant technical notes that developers may ask you to add to the story during weekly prep meeting (pre-IPM or IPM); sometimes they may add these themselves or add them as tasks]
+
+**DESIGN Notes**
+[prototype / design link inserted here; linking to a folder of a feature is good so designers can continue updating designs without anyone having to re-update the links to each design in the stories]
+
+---other items that you may add to a story---
+
+**NEEDS PM**
+[Add reason for adding a label needs PM so you can view the story and remember context to unblock the story; usually this is some kind of thing we need to follow up with our client counterpart on]
+
+**NEEDS DESIGN**
+[Add reason for adding a label needs design so your designers can view the story and get context to unblock the story]",https://www.pivotaltracker.com/story/show/130671511,
