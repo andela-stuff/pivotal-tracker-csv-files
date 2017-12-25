@@ -1,0 +1,19 @@
+Id,Title,Labels,Iteration,Iteration Start,Iteration End,Type,Estimate,Current State,Created at,Accepted at,Deadline,Requested By,Description,URL,Owned By
+152797403,Improved Media Gallery,"",,,,feature,,unscheduled,"Nov 13, 2017",,,Mark Edomwande,,https://www.pivotaltracker.com/story/show/152797403,
+152797153,Ratings and Review,"",,,,feature,,unscheduled,"Nov 13, 2017",,,Mark Edomwande,"'Ratings and reviews for
+-  Individual products
+-  Shops",https://www.pivotaltracker.com/story/show/152797153,
+152350057,Users should effectively be onboarded to the app ,"",,,,feature,,unscheduled,"Oct 19, 2016",,,Mark Edomwande,,https://www.pivotaltracker.com/story/show/152350057,
+152350058,Make the API endpoints RESTful,"",,,,feature,,unscheduled,"Oct 19, 2016",,,Mark Edomwande,Extend Meteor DDP methods and provide restful API.,https://www.pivotaltracker.com/story/show/152350058,
+152350060,"Add ""cancel order"" option. ","",,,,feature,,unscheduled,"Oct 19, 2016",,,Mark Edomwande,[#1238](https://github.com/reactioncommerce/reaction/issues/1238),https://www.pivotaltracker.com/story/show/152350060,
+152350061,Implement sorting and filtering of search results.,"",,,,feature,,unscheduled,"Oct 19, 2016",,,Mark Edomwande,"After a search is completed, a user should be able to further refine through sorting and filtering. [#277](https://github.com/reactioncommerce/reaction/issues/277)",https://www.pivotaltracker.com/story/show/152350061,
+152350062,Display real-time results as shopper is typing.,"",,,,feature,,unscheduled,"Oct 19, 2016",,,Mark Edomwande,"Similar to a google search, display relevant results on the page as a user is typing rather than wait until they submit the search. [#276](https://github.com/reactioncommerce/reaction/issues/276)
+",https://www.pivotaltracker.com/story/show/152350062,
+152350063,Payment,"",,,,feature,,unscheduled,"Oct 19, 2016",,,Mark Edomwande,"'-  Integrate paystack as one of the payment options.
+-  Wallets.
+-  Consumer to consumer funds transfer.
+",https://www.pivotaltracker.com/story/show/152350063,
+152350064,Embed Social Content,"",,,,feature,,unscheduled,"Oct 19, 2016",,,Mark Edomwande,"Embed reviews, tweets, and other social content.",https://www.pivotaltracker.com/story/show/152350064,
+152350065,Actionable Analytics,"",,,,feature,,unscheduled,"Oct 19, 2016",,,Mark Edomwande,"Data driven product presentation, and performance analysis.",https://www.pivotaltracker.com/story/show/152350065,
+152350066,Static Page Management,"",,,,feature,,unscheduled,"Oct 19, 2016",,,Mark Edomwande,"Create and edit static pages, such as Contact, About, or Support.",https://www.pivotaltracker.com/story/show/152350066,
+152350068,Digital Products,"",,,,feature,,unscheduled,"Oct 19, 2016",,,Mark Edomwande,"Sell digital goods independently, or mixed with physical goods.",https://www.pivotaltracker.com/story/show/152350068,
