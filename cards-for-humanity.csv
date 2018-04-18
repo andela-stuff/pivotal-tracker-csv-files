@@ -1,5 +1,5 @@
 Id,Title,Labels,Iteration,Iteration Start,Iteration End,Type,Estimate,Current State,Created at,Accepted at,Deadline,Requested By,Description,URL,Owned By,Task,Task Status,Task,Task Status
-139455685,Deploy base application to Heroku,"",1,"Mar 6, 2017","Mar 19, 2017",chore,,unstarted,"Feb 9, 2017",,,Adebayo,"### Why this is important
+156881760,Deploy base application to Heroku,"",1,"Apr 16, 2018","Apr 22, 2018",chore,,unstarted,"Feb 9, 2017",,,franklin.chieze@andela.com,"'### Why this is important
 This will enable other users access and use the application.
 
 **Acceptance Criteria**
@@ -14,8 +14,8 @@ THEN review app should mirror the Pull Request being raised
 ### Dev Notes
 `staging` and `production` environments are to be setup and URLs should follow the naming pattern below:
 - `<repo-name>-staging.herokuapp.com` for `staging`
-- `<repo-name>.herokuapp.com` for `production`",https://www.pivotaltracker.com/story/show/139455685,
-139454723,Configure ESLint,"",1,"Mar 6, 2017","Mar 19, 2017",chore,,unstarted,"Feb 9, 2017",,,Adebayo,"### Why this is important
+- `<repo-name>.herokuapp.com` for `production`",https://www.pivotaltracker.com/story/show/156881760,
+156881761,Configure ESLint,"",1,"Apr 16, 2018","Apr 22, 2018",chore,,unstarted,"Feb 9, 2017",,,franklin.chieze@andela.com,"### Why this is important
 ESLint is the required linter for the project. It'll help check for style violations and flag them.
 
 #### Dev Notes
@@ -58,28 +58,28 @@ We'll be using the style guide configuration below:
 [AirBnB Javascript](https://github.com/airbnb/javascript)
 [ESLint](https://www.npmjs.com/package/eslint)
 [ESLint Config AirBnB](https://www.npmjs.com/package/eslint-config-airbnb)
-[ESLint Plugin Import](https://www.npmjs.com/package/eslint-plugin-import)",https://www.pivotaltracker.com/story/show/139454723,
-137876949,Link Github with Slack,"",1,"Mar 6, 2017","Mar 19, 2017",chore,,unstarted,"Jan 18, 2017",,,Kesiena Akpobome,"### Why this is important
+[ESLint Plugin Import](https://www.npmjs.com/package/eslint-plugin-import)",https://www.pivotaltracker.com/story/show/156881761,
+156881762,Link Github with Slack,"",1,"Apr 16, 2018","Apr 22, 2018",chore,,unstarted,"Jan 18, 2017",,,franklin.chieze@andela.com,"### Why this is important
 
-When there is activity on Github, they automatically show up as updates in a dedicated Slack channel (separate from the normal team channel, same as the one used for the pivotal updates)",https://www.pivotaltracker.com/story/show/137876949,
-137876875,Link Pivotal Tracker with Slack,"",1,"Mar 6, 2017","Mar 19, 2017",chore,,unstarted,"Jan 18, 2017",,,Kesiena Akpobome,"### Why this is important
+When there is activity on Github, they automatically show up as updates in a dedicated Slack channel (separate from the normal team channel, same as the one used for the pivotal updates)",https://www.pivotaltracker.com/story/show/156881762,
+156881763,Link Pivotal Tracker with Slack,"",1,"Apr 16, 2018","Apr 22, 2018",chore,,unstarted,"Jan 18, 2017",,,franklin.chieze@andela.com,"### Why this is important
 
-When there is activity on Pivotal tracker, updates automatically show up in a dedicated Slack channel (separate from the team channel).",https://www.pivotaltracker.com/story/show/137876875,
-137876761,Link Pivotal Tracker with Github,"",1,"Mar 6, 2017","Mar 19, 2017",chore,,unstarted,"Jan 18, 2017",,,Kesiena Akpobome,"### Why this is important
+When there is activity on Pivotal tracker, updates automatically show up in a dedicated Slack channel (separate from the team channel).",https://www.pivotaltracker.com/story/show/156881763,
+156881764,Link Pivotal Tracker with Github,"",1,"Apr 16, 2018","Apr 22, 2018",chore,,unstarted,"Jan 18, 2017",,,franklin.chieze@andela.com,"### Why this is important
 
-When PRs are made, they automatically show up as comments/commit with their associated stories, giving more context to the story.",https://www.pivotaltracker.com/story/show/137876761,
-130335171,Integrate TravisCI with readme badge,"",1,"Mar 6, 2017","Mar 19, 2017",chore,,unstarted,"Sep 14, 2016",,,Kesiena Akpobome,"### Why is this important?
-This is required to automatically run tests and other preliminary build steps requiredto ship the next iteration of the product",https://www.pivotaltracker.com/story/show/130335171,
-130334903,Integrate HoundCI with badge attached to readme,"",1,"Mar 6, 2017","Mar 19, 2017",chore,,unstarted,"Sep 14, 2016",,,Kesiena Akpobome,"### Why this important?
-This is to automatically validate the codebase with standard style guides",https://www.pivotaltracker.com/story/show/130334903,
-130332983,Setup unit testing for the front end,"",1,"Mar 6, 2017","Mar 19, 2017",chore,,unstarted,"Sep 14, 2016",,,Kesiena Akpobome,"### Why is this important?
-To ensure the front end has all functionality work the way it was intended. Use Jasmine and Karma (with PhantomJS/Chrome/Firefox) to setup front end testing environment.",https://www.pivotaltracker.com/story/show/130332983,
-129763735,Convert from Grunt to Gulp taskrunner,"",1,"Mar 6, 2017","Mar 19, 2017",chore,,unstarted,"Sep 4, 2016",,,Kesiena Akpobome,"### Why this is important
+When PRs are made, they automatically show up as comments/commit with their associated stories, giving more context to the story.",https://www.pivotaltracker.com/story/show/156881764,
+156881765,Integrate TravisCI with readme badge,"",1,"Apr 16, 2018","Apr 22, 2018",chore,,unstarted,"Sep 14, 2016",,,franklin.chieze@andela.com,"### Why is this important?
+This is required to automatically run tests and other preliminary build steps requiredto ship the next iteration of the product",https://www.pivotaltracker.com/story/show/156881765,
+156881766,Integrate HoundCI with badge attached to readme,"",1,"Apr 16, 2018","Apr 22, 2018",chore,,unstarted,"Sep 14, 2016",,,franklin.chieze@andela.com,"### Why this important?
+This is to automatically validate the codebase with standard style guides",https://www.pivotaltracker.com/story/show/156881766,
+156881767,Setup unit testing for the front end,"",1,"Apr 16, 2018","Apr 22, 2018",chore,,unstarted,"Sep 14, 2016",,,franklin.chieze@andela.com,"### Why is this important?
+To ensure the front end has all functionality work the way it was intended. Use Jasmine and Karma (with PhantomJS/Chrome/Firefox) to setup front end testing environment.",https://www.pivotaltracker.com/story/show/156881767,
+156881768,Convert from Grunt to Gulp taskrunner,"",1,"Apr 16, 2018","Apr 22, 2018",chore,,unstarted,"Sep 4, 2016",,,franklin.chieze@andela.com,"### Why this is important
 
-Grunt is an older task runner than Gulp; with Gulp, the syntax is much simpler to comprehend and it uses pipe streams which makes it inherently faster.",https://www.pivotaltracker.com/story/show/129763735,
-130337175,Integrate Coveralls code coverage service,"",1,"Mar 6, 2017","Mar 19, 2017",chore,,unstarted,"Sep 14, 2016",,,Kesiena Akpobome,"###Why is this important?
-This is to ensure we are properly informed just how well our code base is tested which in turn provides quality assurance for the product",https://www.pivotaltracker.com/story/show/130337175,
-130336965,Users should receive a JWT on successful login,"",1,"Mar 6, 2017","Mar 19, 2017",feature,2,unstarted,"Sep 14, 2016",,,Kesiena Akpobome,"Users once authenticated via the login api should be returned a JWT to be required on subsequent call to all other endpoints that require authentication.
+Grunt is an older task runner than Gulp; with Gulp, the syntax is much simpler to comprehend and it uses pipe streams which makes it inherently faster.",https://www.pivotaltracker.com/story/show/156881768,
+156881769,Integrate Coveralls code coverage service,"",1,"Apr 16, 2018","Apr 22, 2018",chore,,unstarted,"Sep 14, 2016",,,franklin.chieze@andela.com,"###Why is this important?
+This is to ensure we are properly informed just how well our code base is tested which in turn provides quality assurance for the product",https://www.pivotaltracker.com/story/show/156881769,
+156881770,Users should receive a JWT on successful login,"",1,"Apr 16, 2018","Apr 22, 2018",feature,2,unstarted,"Sep 14, 2016",,,franklin.chieze@andela.com,"Users once authenticated via the login api should be returned a JWT to be required on subsequent call to all other endpoints that require authentication.
 
 **Acceptance Criteria**
 GIVEN user successfully signs up or logs in
@@ -91,8 +91,8 @@ All endpoints are to have the /api prefix and would be an extension of the curre
 The app should no longer use sessions, but should use the newly implemented JWT strategy for authentication.
 
 DESIGN Notes
-NA",https://www.pivotaltracker.com/story/show/130336965,
-130337369,Users should receive a JWT on successful signup,"",1,"Mar 6, 2017","Mar 19, 2017",feature,2,unstarted,"Sep 14, 2016",,,Kesiena Akpobome,"Users once authenticated via the signup api should be returned a JWT to be required on subsequent call to all other endpoints that require authentication.
+NA",https://www.pivotaltracker.com/story/show/156881770,
+156881771,Users should receive a JWT on successful signup,"",1,"Apr 16, 2018","Apr 22, 2018",feature,2,unstarted,"Sep 14, 2016",,,franklin.chieze@andela.com,"Users once authenticated via the signup api should be returned a JWT to be required on subsequent call to all other endpoints that require authentication.
 
 **Acceptance Criteria**
 GIVEN user successfully signs up or logs in
@@ -104,8 +104,8 @@ All endpoints are to have the /api prefix and would be an extension of the curre
 The app should no longer use sessions, but should use the newly implemented JWT strategy.
 
 **DESIGN NOTES**
-NA",https://www.pivotaltracker.com/story/show/130337369,
-129539513,Users should be able to send invites to at most 11 people other than themselves,"",1,"Mar 6, 2017","Mar 19, 2017",feature,2,unstarted,"Aug 31, 2016",,,Kesiena Akpobome,"Users should be able to invite people to their game up to a maximum of 11 other people, so no game can exceed 12 people in total and must have at least 3 players.
+NA",https://www.pivotaltracker.com/story/show/156881771,
+156881772,Users should be able to send invites to at most 11 people other than themselves,"",1,"Apr 16, 2018","Apr 22, 2018",feature,2,unstarted,"Aug 31, 2016",,,franklin.chieze@andela.com,"Users should be able to invite people to their game up to a maximum of 11 other people, so no game can exceed 12 people in total and must have at least 3 players.
 
 Acceptance Criteria
 GIVEN has created a game and is inviting friends
@@ -122,8 +122,8 @@ An authenticated endpoint to search current users would be required at **/api/se
 
 DESIGN Notes
 Use popup designed for the product's theme.
-",https://www.pivotaltracker.com/story/show/129539513,
-129538235,Users should see a landing page with effective UI/UX,"",1,"Mar 6, 2017","Mar 19, 2017",feature,3,unstarted,"Aug 31, 2016",,,Michael Rosenberg,"Users should be able to see an overview of what the game is about, how it's played and how it can be used to donate to charity and also see call to action buttons that lead them to signup or signin
+",https://www.pivotaltracker.com/story/show/156881772,
+156881773,Users should see a landing page with effective UI/UX,"",1,"Apr 16, 2018","Apr 22, 2018",feature,3,unstarted,"Aug 31, 2016",,,franklin.chieze@andela.com,"Users should be able to see an overview of what the game is about, how it's played and how it can be used to donate to charity and also see call to action buttons that lead them to signup or signin
 
 Acceptance Criteria
 GIVEN user navigates to <Heroku production link here>
@@ -134,8 +134,8 @@ DEV NOTES
 All endpoints are to have the /api prefix and would be an extension of the current code base as opposed  to replacing the existent authentication strategies
 
 DESIGN Notes
-Branding colors and typography need o be decided and documented and must be responsive across all devices. ",https://www.pivotaltracker.com/story/show/129538235,,"Decide on a color scheme of at most 3 compatible colors, with neutrals for everything else ",not completed
-129539301,Users should be able to create/start a new game,"",2,"Mar 20, 2017","Apr 2, 2017",feature,2,unstarted,"Aug 31, 2016",,,Kesiena Akpobome,"Users should be able to start a new game session after login or signup. Currently the game throws you into a new gaming screen and starts the game off immediately, which creates a rather confusing experience for the user.
+Branding colors and typography need o be decided and documented and must be responsive across all devices. ",https://www.pivotaltracker.com/story/show/156881773,,"Decide on a color scheme of at most 3 compatible colors, with neutrals for everything else ",not completed
+156881774,Users should be able to create/start a new game,"",2,"Apr 23, 2018","Apr 29, 2018",feature,2,unstarted,"Aug 31, 2016",,,franklin.chieze@andela.com,"Users should be able to start a new game session after login or signup. Currently the game throws you into a new gaming screen and starts the game off immediately, which creates a rather confusing experience for the user.
 
 _Acceptance Criteria_
 GIVEN a user is successfully authenticated
@@ -146,9 +146,9 @@ THEN they start a new game session
 This requires an authenticated endpoint **/api/games/:id/start** and should be recorded for that user as well as the friends that played in that game and the winner of that game
 
 **DESIGN Notes**
-This would require a modal that let's the user know that clicking the button would start a new game session. The modal would have a dark overlay on the actual game screen, so that it just disappears when a user clicks to start a new game.",https://www.pivotaltracker.com/story/show/129539301,
-130339453,Start upgrade to version 2,"",2,"Mar 20, 2017","Apr 2, 2017",release,,unstarted,"Sep 14, 2016",,,Kesiena Akpobome,Upgrade app gaming interface,https://www.pivotaltracker.com/story/show/130339453,
-129537205,Re-Design UI for user authentication screen,"",2,"Mar 20, 2017","Apr 2, 2017",feature,1,unstarted,"Aug 31, 2016",,,Kesiena Akpobome,"As a user i should see a redesigned(according to material design specs and chosen color scheme) login/signup screen with the option to authenticate via facebook, twitter and google.
+This would require a modal that let's the user know that clicking the button would start a new game session. The modal would have a dark overlay on the actual game screen, so that it just disappears when a user clicks to start a new game.",https://www.pivotaltracker.com/story/show/156881774,
+156881775,Start upgrade to version 2,"",2,"Apr 23, 2018","Apr 29, 2018",release,,unstarted,"Sep 14, 2016",,,franklin.chieze@andela.com,Upgrade app gaming interface,https://www.pivotaltracker.com/story/show/156881775,
+156881776,Re-Design UI for user authentication screen,"",2,"Apr 23, 2018","Apr 29, 2018",feature,1,unstarted,"Aug 31, 2016",,,franklin.chieze@andela.com,"As a user i should see a redesigned(according to material design specs and chosen color scheme) login/signup screen with the option to authenticate via facebook, twitter and google.
 
 _Acceptance Criteria_
 GIVEN a user is directed to an authentication page
@@ -159,8 +159,8 @@ THEN they should see a redesigned interface
 This should be loaded from the server
 
 **DESIGN Notes**
-Design the page to be in line with chosen brand colors. A mockup should first be designed before it is implemented.",https://www.pivotaltracker.com/story/show/129537205,
-129538421,Users should be quickly and effectively onboarded onto the app,"",2,"Mar 20, 2017","Apr 2, 2017",feature,2,unstarted,"Aug 31, 2016",,,Michael Rosenberg,"As new user I want to see a brief tour of how the game is played and the important controls so that I have sufficient knowledge on how to continue to play the game
+Design the page to be in line with chosen brand colors. A mockup should first be designed before it is implemented.",https://www.pivotaltracker.com/story/show/156881776,
+156881777,Users should be quickly and effectively onboarded onto the app,"",2,"Apr 23, 2018","Apr 29, 2018",feature,2,unstarted,"Aug 31, 2016",,,franklin.chieze@andela.com,"As new user I want to see a brief tour of how the game is played and the important controls so that I have sufficient knowledge on how to continue to play the game
 
 _Acceptance Criteria_
 GIVEN I just successfully signed up or just joined a game 
@@ -174,8 +174,8 @@ This may require a slider that has control buttons so that each slide is able to
 Brand colors, typeface and consistent columns should be utilized to achieve this
 
 **NOTES PM**
-This feature is akin to what Slackfor example would show you as a new user, avery sleek and brief overview of the app and how to find pertinent information",https://www.pivotaltracker.com/story/show/129538421,
-129538541,Re-Design UI for the actual gaming screen,"angular-components, ui-design",2,"Mar 20, 2017","Apr 2, 2017",feature,3,unstarted,"Aug 31, 2016",,,Michael Rosenberg,"As a user after I opt to start a new game, I should see a redesigned interface to play the game 
+This feature is akin to what Slackfor example would show you as a new user, avery sleek and brief overview of the app and how to find pertinent information",https://www.pivotaltracker.com/story/show/156881777,
+156881779,Re-Design UI for the actual gaming screen,"angular-components, ui-design",2,"Apr 23, 2018","Apr 29, 2018",feature,3,unstarted,"Aug 31, 2016",,,franklin.chieze@andela.com,"As a user after I opt to start a new game, I should see a redesigned interface to play the game 
 
 _Acceptance Criteria_
 GIVEN a user opts to start a new game
@@ -189,8 +189,8 @@ The interface would be designed as a composition of different sub components. De
 Game interface should have a more modern card game feel like solitaire or some other popular game, with a card deck that's activated on click. It should be designed with the material design spec as the underlying theme.
 
 **NEEDS DESIGN**
-Requires a mockup be drafted before it is actually implemented",https://www.pivotaltracker.com/story/show/129538541,,Screen should have a section for the actual game,not completed,Screen should also have a retractable section for the instant messaging section,not completed
-129540825,CZARs should be able to draw cards by clicking,"",2,"Mar 20, 2017","Apr 2, 2017",feature,1,unstarted,"Aug 31, 2016",,,Michael Rosenberg,"As a CZAR I should be prompted to click to select from the deck of black cards the next question card.
+Requires a mockup be drafted before it is actually implemented",https://www.pivotaltracker.com/story/show/156881779,,Screen should have a section for the actual game,not completed,Screen should also have a retractable section for the instant messaging section,not completed
+156881780,CZARs should be able to draw cards by clicking,"",2,"Apr 23, 2018","Apr 29, 2018",feature,1,unstarted,"Aug 31, 2016",,,franklin.chieze@andela.com,"As a CZAR I should be prompted to click to select from the deck of black cards the next question card.
 
 _Acceptance Criteria_
 GIVEN user has been assigned the CZAR
@@ -203,8 +203,8 @@ The deck would have a click listener that randomly chooses the next card
 **DESIGN NOTES**
 A modal/dialog should show up when the user is assigned as the CZAR, prompting them to click the deck of cards.
 
-There should be a deck of black cards. When a user clicks on the deck, the next card should transition in, by **flipping** and consequently reveals the next question.",https://www.pivotaltracker.com/story/show/129540825,
-141399723,Cards should be categorised by region,localization,3,"Apr 3, 2017","Apr 16, 2017",feature,3,unstarted,"Mar 9, 2017",,,Adebayo,"A player who starts a game should have the option of selecting a region for the game. This would ensure the cards are relevant to that particular geographical region.
+There should be a deck of black cards. When a user clicks on the deck, the next card should transition in, by **flipping** and consequently reveals the next question.",https://www.pivotaltracker.com/story/show/156881780,
+156881781,Cards should be categorised by region,localization,3,"Apr 30, 2018","May 6, 2018",feature,3,unstarted,"Mar 9, 2017",,,franklin.chieze@andela.com,"A player who starts a game should have the option of selecting a region for the game. This would ensure the cards are relevant to that particular geographical region.
 
 _Acceptance Criteria_
 GIVEN I'm on the home page
@@ -221,8 +221,8 @@ This may require either a dropdown menu or a modal.
 **DESIGN Notes**
 A very good, and well coloured UI should be used to select region, and trends
 
-**NOTES PM**",https://www.pivotaltracker.com/story/show/141399723,
-129538715,Users should be able to chat with the group while they are in a game,player-communities,3,"Apr 3, 2017","Apr 16, 2017",feature,3,unstarted,"Aug 31, 2016",,,Michael Rosenberg," As a registered user in a game I want to be able to chat with the other players so that I have a more enjoyable experience using the app
+**NOTES PM**",https://www.pivotaltracker.com/story/show/156881781,
+156881782,Users should be able to chat with the group while they are in a game,player-communities,3,"Apr 30, 2018","May 6, 2018",feature,3,unstarted,"Aug 31, 2016",,,franklin.chieze@andela.com," As a registered user in a game I want to be able to chat with the other players so that I have a more enjoyable experience using the app
 
 _Acceptance Criteria_
 GIVEN I am a guest or registered user
@@ -233,8 +233,8 @@ THEN I can send messages to other users and view sent and received messages in a
 Firebase should be used to store the chat threads per game session.
 
 **DESIGN NOTES**
-Chat thread should mimick slack UI. The chat thread panel should be retractable but show indicator when there are unread messages.",https://www.pivotaltracker.com/story/show/129538715,
-129541333,"Registered users should be able to invite other users to connect as ""friends""",player-communities,3,"Apr 3, 2017","Apr 16, 2017",feature,2,unstarted,"Aug 31, 2016",,,Michael Rosenberg," As a registered player in a game I want to be able to save other players as ""friends"" so that I can invite them to future games
+Chat thread should mimick slack UI. The chat thread panel should be retractable but show indicator when there are unread messages.",https://www.pivotaltracker.com/story/show/156881782,
+156881783,"Registered users should be able to invite other users to connect as ""friends""",player-communities,3,"Apr 30, 2018","May 6, 2018",feature,2,unstarted,"Aug 31, 2016",,,franklin.chieze@andela.com," As a registered player in a game I want to be able to save other players as ""friends"" so that I can invite them to future games
 
 _Acceptance Criteria_
 GIVEN I am in a game
@@ -245,8 +245,8 @@ THEN I see a dropdown as I type name of registered users and adds to list of inv
 The invite should send an in-app notification to invitees. The notification should be the equivalent of the invitee clicking the generated invite link.
 
 **DESIGN Notes**
-When user's receive notifications, they should see a count on top of the icon for notifications boldly colored to show new activity. Clicking it should reveal a list of the latest notifications.",https://www.pivotaltracker.com/story/show/129541333,
-129850633,"Registered users should be able to view a a ""game log"" of past games",player-communities,3,"Apr 3, 2017","Apr 16, 2017",feature,1,unstarted,"Sep 6, 2016",,,Michael Rosenberg,"As a registered user I want to view a ""game log"" of previously played games so that I can reference the friends played with, number of rounds and overall winner of the different games played.
+When user's receive notifications, they should see a count on top of the icon for notifications boldly colored to show new activity. Clicking it should reveal a list of the latest notifications.",https://www.pivotaltracker.com/story/show/156881783,
+156881784,"Registered users should be able to view a a ""game log"" of past games",player-communities,3,"Apr 30, 2018","May 6, 2018",feature,1,unstarted,"Sep 6, 2016",,,franklin.chieze@andela.com,"'As a registered user I want to view a ""game log"" of previously played games so that I can reference the friends played with, number of rounds and overall winner of the different games played.
 
 _Acceptance Criteria_
 GIVEN I am a registered user that has logged in
@@ -275,8 +275,8 @@ There should be links to the:
 
 in the main navigation.
 
-The colors should be consistent with the chosen color scheme of the platform.",https://www.pivotaltracker.com/story/show/129850633,
-129539663,Users should be able to use emojis in the chat window,player-communities,3,"Apr 3, 2017","Apr 16, 2017",feature,1,unstarted,"Aug 31, 2016",,,Michael Rosenberg,"As a user in a game I want to be able to use emojis in the group chat so that I have a more enjoyable and expressive chat experience
+The colors should be consistent with the chosen color scheme of the platform.",https://www.pivotaltracker.com/story/show/156881784,
+156881785,Users should be able to use emojis in the chat window,player-communities,3,"Apr 30, 2018","May 6, 2018",feature,1,unstarted,"Aug 31, 2016",,,franklin.chieze@andela.com,"As a user in a game I want to be able to use emojis in the group chat so that I have a more enjoyable and expressive chat experience
 
 _Acceptance Criteria_
 GIVEN I am a guest or registered user
@@ -288,14 +288,53 @@ Include support for unicode chars
 
 **DESIGN NOTES**
 N/A
-",https://www.pivotaltracker.com/story/show/129539663,
-129958605,Define alternatives for increasing donations received through the app,"",3,"Apr 3, 2017","Apr 16, 2017",chore,,unstarted,"Sep 7, 2016",,,Michael Rosenberg,"**Description:** A major are of improvement for CFH is how we attract donations through the app. We need to think through alternatives for features we can implement that will result in more users to donate more money, more often through the app.
+",https://www.pivotaltracker.com/story/show/156881785,
+156881787,Define alternatives for increasing donations received through the app,"",3,"Apr 30, 2018","May 6, 2018",chore,,unstarted,"Sep 7, 2016",,,franklin.chieze@andela.com,"**Description:** A major are of improvement for CFH is how we attract donations through the app. We need to think through alternatives for features we can implement that will result in more users to donate more money, more often through the app.
 
-**Resources:**",https://www.pivotaltracker.com/story/show/129958605,
-129960965,Agree on and define course of action for increasing donations and roadmap for associated features,"",3,"Apr 3, 2017","Apr 16, 2017",chore,,unstarted,"Sep 7, 2016",,,Michael Rosenberg,"**Description:** Select a course of action based on the features defined in story #129958605 and scope out proposed roadmap with input of PO
+**Resources:**",https://www.pivotaltracker.com/story/show/156881787,
+156881788,Agree on and define course of action for increasing donations and roadmap for associated features,"",3,"Apr 30, 2018","May 6, 2018",chore,,unstarted,"Sep 7, 2016",,,franklin.chieze@andela.com,"**Description:** Select a course of action based on the features defined in story #129958605 and scope out proposed roadmap with input of PO
 
-**Resources:**",https://www.pivotaltracker.com/story/show/129960965,
-130671511,REFERENCE TEMPLATE FOR STORY NAMING CONVENTION (feature),"",,,,feature,,unscheduled,"Sep 19, 2016",,,Michael Rosenberg,"Title: [Persona name] should (not) be able to [overarching action]
+**Resources:**",https://www.pivotaltracker.com/story/show/156881788,
+156881888,Users should have a profile page,"",,,,feature,1,unscheduled,"Apr 18, 2018",,,franklin.chieze@andela.com,"'As a registered user I should have a profile page and have displayed my personal log of previously played games and number of rounds I have won.
+
+*Acceptance Criteria*
+GIVEN I am a registered user that has logged in
+WHEN I click on the ""profile"" link from the main navigation
+THEN I should see a profile page with my picture and details
+
+WHEN I click on the ""profile"" link from the main navigation
+THEN I also see a list of all games played and number of rounds won.
+
+**DEV NOTES**
+This would require an authenticated endpoint
+
+- **/api/profile** which returns a complex object containing a single player mapped to number of games played and rounds won
+
+
+**DESIGN NOTES**
+Note that the images to be used as profile image can be uploaded by the user at the point of signing up to use the application.
+
+There should be links to the:
+- dashboard screen
+- gaming screen
+
+in the main navigation.
+
+The colors should be consistent with the chosen color scheme of the platform.",https://www.pivotaltracker.com/story/show/156881888,
+156881920,Users should be able to upload their profile image on signup,"",,,,feature,2,unscheduled,"Apr 18, 2018",,,franklin.chieze@andela.com,"Users should have a personalised feel to the game instead of having been represented by avatars.
+
+*Acceptance Criteria*
+GIVEN a user attempts/wants to sign up
+WHEN the user visits the signup form
+THEN the user should be able to upload a profile image as part of their profile information
+
+
+**DESIGN NOTES**
+The feature should replace the avatars on the signup page with the upload field properly positioned.
+
+**DEV NOTES**
+Users signing up using social authentication should have their social media account profile picture used instead of uploading an image",https://www.pivotaltracker.com/story/show/156881920,
+156881789,REFERENCE TEMPLATE FOR STORY NAMING CONVENTION (feature),"",,,,feature,,unscheduled,"Sep 19, 2016",,,franklin.chieze@andela.com,"'Title: [Persona name] should (not) be able to [overarching action]
 
 _Business/User Value:_ As [persona] I want to [action by user] so that [value or need met]
 
@@ -316,4 +355,4 @@ THEN [reaction]
 [Add reason for adding a label needs PM so you can view the story and remember context to unblock the story; usually this is some kind of thing we need to follow up with our client counterpart on]
 
 **NEEDS DESIGN**
-[Add reason for adding a label needs design so your designers can view the story and get context to unblock the story]",https://www.pivotaltracker.com/story/show/130671511,
+[Add reason for adding a label needs design so your designers can view the story and get context to unblock the story]",https://www.pivotaltracker.com/story/show/156881789,
