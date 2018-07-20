@@ -1,0 +1,116 @@
+Id,Title,Labels,Iteration,Iteration Start,Iteration End,Type,Estimate,Current State,Created at,Accepted at,Deadline,Requested By,Description,URL,Owned By
+158789467,Users should be able to Login to Authors Haven,"",,,,feature,2,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"**Why**
+To be able to use the application and access authenticated routes, a login form should be presented to users.
+
+**Acceptance Criteria**
+
+**GIVEN** user successfully logs in.
+**WHEN** user passes appropriate login parameters 
+**THEN** user should be able to login.
+
+DEV NOTES
+The login in form should present to the user **descriptive** validation errors incase of any.
+The Login page should present a link for users to **Reset** their passwords incase of forgotten credentials
+Kindly **do not** user Third party packages and or Libraries such as ReduxForm. Use plain html ,CSS Forms with any front end framework such as Bootstrap, MaterializeCSS etc",https://www.pivotaltracker.com/story/show/158789467,
+158790088,Users should be able to Login via Google Facebook or Twitter,"",,,,feature,1,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"On the Login route, users should also be able to  Login via their favorite social media platform.Design of this functionality from a UI/UX perspective is up to us!",https://www.pivotaltracker.com/story/show/158790088,
+158800898,Users should be able to view and edit their profiles,"",,,,feature,2,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"**Why this is important**
+Users should be able to ammend/edit  their profiles depending on change of preference to the full disclosure of the individual user
+
+**As a User**
+I want to have access to my profile.
+I want to be able to edit my profile to my preference.",https://www.pivotaltracker.com/story/show/158800898,
+158789157,Users should be able Signup/Register to Authors Haven,"",,,,feature,2,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"**Why**
+To be able to use the application and access authenticated routes, Users should be able to Signup and or Register using  Sign up forms on the signup route.
+
+**Acceptance Criteria**
+
+**GIVEN** user successfully signs up/registers.
+**WHEN** user passes appropriate signup parameters 
+**THEN** user should be able to sign up.
+
+DEV NOTES
+The sign up form should present to the user **descriptive** validation errors incase of any.
+The user should receive verification link on email upon successful registration 
+Kindly **do not** user Third party packages and or Libraries such as ReduxForm. Use plain html ,CSS Forms with any front end framework such as Bootstrap,MaterializeCSS etc.
+",https://www.pivotaltracker.com/story/show/158789157,
+158801112,Users should be able to Search for articles.,"",,,,feature,2,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"**Why this is important**
+Looking for article(s) in their dozens can be daunting. Would it be easier if we had a search box/Field? I bet it would.
+
+**As a User**
+I want to be able to search for articles by author, article title and tag/keyword or search by filtering.
+
+**Acceptance Criteria**
+Scenario:
+Any user (authenticated or not) should be able to search for articles on our platform .",https://www.pivotaltracker.com/story/show/158801112,
+158801194,Users should be able to create articles,"",,,,feature,2,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"**Why this is important**
+Articles form the backbone of our application and introduces us to **CRUD** which is the building block of most web applications.
+
+**As a User**
+I want to be able to create my articles and read/access articles created by other authors. 
+I want to be able to **ONLY** update and delete articles  that i have authored.
+Let's get creative in the design of this.
+",https://www.pivotaltracker.com/story/show/158801194,
+158802035,Users should be able to rate articles,"",,,,feature,2,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,A 5 star rating system is the end goal. Lets have authenticated users get a visual feedback of their average rating of their articles,https://www.pivotaltracker.com/story/show/158802035,
+158802574,Users should be able to comment on articles,"",,,,feature,2,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"Why this is important
+Comments allow authors to get feedback on their articles.. We all love to know what people think about what we put out to the world......
+
+As a User
+I want to be able to make a comment(s) on articles, both authored by me and those not authored by me.
+
+Acceptance Criteria
+Scenario:
+Only authenticated users should be able to comments on articles.
+Successive comments should be threaded
+Timestamped comments.",https://www.pivotaltracker.com/story/show/158802574,
+158802101,Pagination support for articles,"",,,,feature,1,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,Add pagination to our articles to make article traversal easier.,https://www.pivotaltracker.com/story/show/158802101,
+158802297,Users should be able to like and or dislike articles,"",,,,feature,2,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"**Why this is important**
+Lets appreciate those authors who go out of their way to create good content with a Like and encourage those authors who do not meet our expectations with a dislike.
+
+**As a User**
+I want to be able to like or dislike articles  articles, both authored by me and those not authored by me. Lets get creative in how we visually represent this! 
+
+**Acceptance Criteria**
+Scenario:
+Only **authenticated** users should be able to like or dislike articles.
+",https://www.pivotaltracker.com/story/show/158802297,
+158802907, Article tags should be present in all relevant views,"",,,,feature,1,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"**Why this is important**
+Tagging refers to the metadata that is assigned to a piece of content by the content creator and the readers/users of the content. Tagging allows for organization and or categorization of content
+
+**As a User**
+I want to be able to view various article tags to enable easy filtering and navigation to articles of interest 
+
+**Acceptance Criteria**
+Scenario:
+Only **authenticated** users should be able to tag articles .",https://www.pivotaltracker.com/story/show/158802907,
+159034805,Users should be able to share articles on social media,"",,,,feature,2,unscheduled,"Jul 13, 2018",,,franklinchieze,"**Why this is important**
+The ability to share/tweet/post an article on social media increases the reach of the article and, hence, the popularity of the platform.
+
+**As a User**
+I want to be able to share/post/tweet articles on social media platforms like Facebook and Twitter.
+",https://www.pivotaltracker.com/story/show/159034805,
+158803024,Users should be able to follow each other,"",,,,feature,1,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"**Why this is important**
+We are a community of like minded authors/content creators.Lets keep tabs by following each other and by extension the articles we author.
+
+**As a User**
+I want to be able to follow and or unfollow other authors. 
+
+**Acceptance Criteria**
+Scenario 1:
+Only **authenticated** users should be able to follow and or unfollow other users.
+
+Scenario 2:
+I need a view to manage those I follow and be able to see those who follow me
+",https://www.pivotaltracker.com/story/show/158803024,
+159040867,Users should be able to view notifications,"",,,,feature,2,unscheduled,"Jul 13, 2018",,,franklinchieze,"**Why this is important**
+Notifications give users to opportunity to know what they may have missed which may be important to them.
+
+**As a User**
+I want to be able to view notifications that are relevant to me.
+
+I want to be able to see a _badge_ UI component that shows how many new notifications I have.
+",https://www.pivotaltracker.com/story/show/159040867,
+159041772,Users should be able to opt in and out of notifications,"",,,,feature,2,unscheduled,"Jul 13, 2018",,,franklinchieze,"**Why this is important**
+Notifications give users to opportunity to know what they may have missed which may be important to them. However, forcing notifications on users may be seen as annoying. Users should have the ability to opt in and out of (or turn on and off) notifications.
+
+**As a User**
+I want to be able to opt in and out of (or turn on and off) notifications.",https://www.pivotaltracker.com/story/show/159041772,
