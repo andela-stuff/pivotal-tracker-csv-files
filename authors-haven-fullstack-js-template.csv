@@ -1,0 +1,412 @@
+Id,Title,Labels,Iteration,Iteration Start,Iteration End,Type,Estimate,Current State,Created at,Accepted at,Deadline,Requested By,Description,URL,Owned By,Task,Task Status
+4056432,AH React/Redux,front-end,,,,epic,,,"Aug 22, 2018",,,,Frontend related stories to be implemented in React/Redux,https://www.pivotaltracker.com/epic/show/4056432,,,
+4056429,AH Node/Express Backend,back-end,,,,epic,,,"Aug 22, 2018",,,,Backend API related stories in Node/Express,https://www.pivotaltracker.com/epic/show/4056429,,,
+159964865,Setup an empty react project,"front-end, setup",,,,chore,,unscheduled,"Aug 22, 2018",,,Alpha Ogilo,Use the create-react-app tool to setup the react boilerplate using the Airbnb linting option. There is also latitude to create a blank react project from scratch using Webpack 4 and Babel.,https://www.pivotaltracker.com/story/show/159964865,
+159964866,Setup Redux,"front-end, setup",,,,chore,,unscheduled,"Aug 22, 2018",,,Alpha Ogilo,Create the appropriate folder/file structure for React/Redux workflow,https://www.pivotaltracker.com/story/show/159964866,
+159964867,Write tests for all functionality/components created.,"front-end, testing",,,,chore,,unscheduled,"Aug 22, 2018",,,Alpha Ogilo,All components should have tests: Unit tests thereafter integration and end to end tests,https://www.pivotaltracker.com/story/show/159964867,
+159964868,Update TravisCI to run tests,"continous-integration, devops, front-end",,,,chore,,unscheduled,"Aug 22, 2018",,,Alpha Ogilo,,https://www.pivotaltracker.com/story/show/159964868,
+159964869,Setup react router version 4 (React-router-dom),"front-end, set",,,,chore,,unscheduled,"Aug 22, 2018",,,Alpha Ogilo,"We are going to use react router for our client. Install and configure the router creating a dummy route for login and the ""/"" page to test the configuration.
+Create a components and views file structure where view pages are in the views folder but individual components are in the components folder.",https://www.pivotaltracker.com/story/show/159964869,
+159964870,Setup SASS processing on the client,"css, front-end, setup",,,,chore,,unscheduled,"Aug 22, 2018",,,Alpha Ogilo,Install and setup sass pre-processing on the application to enables the use of both .scss and .css files on the client,https://www.pivotaltracker.com/story/show/159964870,
+159964871,Run codeclimate test coverage,"continous-integration, devops, front-end",,,,chore,,unscheduled,"Aug 22, 2018",,,Alpha Ogilo,Run codeclimate test coverage after passing the tests from circleci,https://www.pivotaltracker.com/story/show/159964871,
+159964872,Users should be able Signup/Register to Authors Haven,"authentication, front-end",,,,feature,2,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"**Why**
+To be able to use the application and access authenticated routes, Users should be able to Signup and or Register using  Sign up forms on the signup route.
+
+**Acceptance Criteria**
+
+**GIVEN** user successfully signs up/registers.
+**WHEN** user passes appropriate signup parameters 
+**THEN** user should be able to sign up.
+
+DEV NOTES
+The sign up form should present to the user **descriptive** validation errors incase of any.
+The user should receive verification link on email upon successful registration 
+Kindly **do not** user Third party packages and or Libraries such as ReduxForm. Use plain html ,CSS Forms with any front end framework such as Bootstrap,MaterializeCSS etc.
+",https://www.pivotaltracker.com/story/show/159964872,
+159964873,Users should be able to presented with a reset password link,"authentication, front-end",,,,feature,1,unscheduled,"Aug 22, 2018",,,Alpha Ogilo,A user should be presented with a button and or link to reset their passwords on the SignUp/Register component,https://www.pivotaltracker.com/story/show/159964873,
+159964874,Users should be able to Login to Authors Haven,"authentication, front-end",,,,feature,2,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"**Why**
+To be able to use the application and access authenticated routes, a login form should be presented to users.
+
+**Acceptance Criteria**
+
+**GIVEN** user successfully logs in.
+**WHEN** user passes appropriate login parameters 
+**THEN** user should be able to login.
+
+DEV NOTES
+The login in form should present to the user **descriptive** validation errors incase of any.
+The Login page should present a link for users to **Reset** their passwords incase of forgotten credentials
+Kindly **do not** user Third party packages and or Libraries such as ReduxForm. Use plain html ,CSS Forms with any front end framework such as Bootstrap, MaterializeCSS etc",https://www.pivotaltracker.com/story/show/159964874,
+159964875,Users should be able to Login via Google Facebook or Twitter,"front-end, social authentication",,,,feature,1,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"On the Login route, users should also be able to  Login via their favorite social media platform.Design of this functionality from a UI/UX perspective is up to us!",https://www.pivotaltracker.com/story/show/159964875,
+159964876,Users should be able to view and edit their profiles,"crud, front-end",,,,feature,2,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"**Why this is important**
+Users should be able to ammend/edit  their profiles depending on change of preference to the full disclosure of the individual user
+
+**As a User**
+I want to have access to my profile.
+I want to be able to edit my profile to my preference.",https://www.pivotaltracker.com/story/show/159964876,
+159964877,Users should be able to create articles,"crud, front-end",,,,feature,2,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"**Why this is important**
+Articles form the backbone of our application and introduces us to **CRUD** which is the building block of most web applications.
+
+**As a User**
+I want to be able to create my articles and read/access articles created by other authors. 
+I want to be able to **ONLY** update and delete articles  that i have authored.
+Let's get creative in the design of this.
+",https://www.pivotaltracker.com/story/show/159964877,
+159964878,Users should be able to rate articles,"front-end, rating functionality",,,,feature,2,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,A 5 star rating system is the end goal. Lets have authenticated users get a visual feedback of their average rating of their articles,https://www.pivotaltracker.com/story/show/159964878,
+159964879,Users should be able to comment on articles,"crud, front-end",,,,feature,2,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"Why this is important
+Comments allow authors to get feedback on their articles.. We all love to know what people think about what we put out to the world......
+
+As a User
+I want to be able to make a comment(s) on articles, both authored by me and those not authored by me.
+
+Acceptance Criteria
+Scenario:
+Only authenticated users should be able to comments on articles.
+Successive comments should be threaded
+Timestamped comments.",https://www.pivotaltracker.com/story/show/159964879,
+159964880,Pagination support for articles,"front-end, pagination",,,,feature,1,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,Add pagination to our articles to make article traversal easier.,https://www.pivotaltracker.com/story/show/159964880,
+159964881,Users should be able to like and or dislike articles,"front-end, like-dislike functionality",,,,feature,2,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"**Why this is important**
+Lets appreciate those authors who go out of their way to create good content with a Like and encourage those authors who do not meet our expectations with a dislike.
+
+**As a User**
+I want to be able to like or dislike articles  articles, both authored by me and those not authored by me. Lets get creative in how we visually represent this! 
+
+**Acceptance Criteria**
+Scenario:
+Only **authenticated** users should be able to like or dislike articles.
+",https://www.pivotaltracker.com/story/show/159964881,
+159964882, Article tags should be present in all relevant views,front-end,,,,feature,1,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"**Why this is important**
+Tagging refers to the metadata that is assigned to a piece of content by the content creator and the readers/users of the content. Tagging allows for organization and or categorization of content
+
+**As a User**
+I want to be able to view various article tags to enable easy filtering and navigation to articles of interest 
+
+**Acceptance Criteria**
+Scenario:
+Only **authenticated** users should be able to tag articles .",https://www.pivotaltracker.com/story/show/159964882,
+159964883,Users should be able to share articles on social media and via email,"front-end, social-sharing",,,,feature,2,unscheduled,"Jul 13, 2018",,,franklinchieze,"**Why this is important**
+The ability to share/tweet/post an article on social media and through email increases the reach of the article and, hence, the popularity of the platform.
+
+**As a User**
+I want to be able to share/post/tweet articles on social media platforms like Facebook and Twitter.
+",https://www.pivotaltracker.com/story/show/159964883,
+159964884,Users should be able to follow each other,"follow authors functionality, front-end",,,,feature,1,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"**Why this is important**
+We are a community of like minded authors/content creators.Lets keep tabs by following each other and by extension the articles we author.
+
+**As a User**
+I want to be able to follow and or unfollow other authors. 
+
+**Acceptance Criteria**
+Scenario 1:
+Only **authenticated** users should be able to follow and or unfollow other users.
+
+Scenario 2:
+I need a view to manage those I follow and be able to see those who follow me
+",https://www.pivotaltracker.com/story/show/159964884,
+159964885,Users should be able to view notifications,"front-end, notifications",,,,feature,2,unscheduled,"Jul 13, 2018",,,franklinchieze,"**Why this is important**
+Notifications give users to opportunity to know what they may have missed which may be important to them.
+
+**As a User**
+I want to be able to view notifications that are relevant to me.
+
+I want to be able to see a _badge_ UI component that shows how many new notifications I have.
+",https://www.pivotaltracker.com/story/show/159964885,
+159964886,Users should be able to opt in and out of notifications,"front-end, notifications",,,,feature,2,unscheduled,"Jul 13, 2018",,,franklinchieze,"**Why this is important**
+Notifications give users to opportunity to know what they may have missed which may be important to them. However, forcing notifications on users may be seen as annoying. Users should have the ability to opt in and out of (or turn on and off) notifications.
+
+**As a User**
+I want to be able to opt in and out of (or turn on and off) notifications.",https://www.pivotaltracker.com/story/show/159964886,
+159964887,Add Search Functionality and Custom filtering based on parameters,front-end,,,,feature,3,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"**Why this is important**
+Looking for article(s) in their dozens can be daunting. Would it be easier if we had a search functionality with custom filters? I bet it would.These filters avail the members to create a search criterion of their own which helps them to narrow it down if they don’t know the title exactly.
+
+**As a User**
+I want to be able to search for articles by author, article title and tag/keyword or search by filtering.
+Users would be able to filter articles by author, article title and tag/keywords, this would ensure a user only gets an article that matches ONLY the criteria that matches the criteria for the article they want.
+
+Note:
+If only author is supplied - the filter will only filter by author
+
+If only tag is supplied - the filter will only filter by tag
+
+if only keywords are supplied, the filter will only filter by keywords
+
+If any of the above is supplied, the filter filters by the supplied filters
+
+**Acceptance Criteria**
+Scenario:
+Any user (authenticated or not) should be able to search for articles on our platform .",https://www.pivotaltracker.com/story/show/159964887,
+159964888,Users should be able to see time it takes to read an article,"algorithms, front-end",,,,feature,1,unscheduled,"Aug 22, 2018",,,Alpha Ogilo,,https://www.pivotaltracker.com/story/show/159964888,
+159964889,Bookmark articles for reading later,front-end,,,,feature,1,unscheduled,"Aug 22, 2018",,,Alpha Ogilo,"Users should be able to bookmark articles for reading later via a bookmark tab, button or link",https://www.pivotaltracker.com/story/show/159964889,
+159964890,List Bookmarked articles,"bookmarking, front-end",,,,feature,2,unscheduled,"Aug 22, 2018",,,Alpha Ogilo,An authenticated user should be able to see all his bookmarked articles in his/her profile and navigate to them,https://www.pivotaltracker.com/story/show/159964890,
+159964891,Users should be able to report an article,"escalation, front-end",,,,feature,1,unscheduled,"Aug 22, 2018",,,Alpha Ogilo,As an authenticated user i should be able to report articles that violate terms of agreement or are plagiarised to the authors haven admin for removal and or any other actions as per the terms of engagement. Lets get creative in the way that we display the ability to do reporting on the frontend,https://www.pivotaltracker.com/story/show/159964891,
+159964892,Users should be able to highlight and comment on any text in an article,"css, front-end, html, jsx",,,,feature,3,unscheduled,"Aug 22, 2018",,,Alpha Ogilo,As a user i should be able to highlight any text in an article(created by me or not) and comment on it via a text box and or any visual representation of your choice ,https://www.pivotaltracker.com/story/show/159964892,
+159964893,Comments should be able to track edit history,front-end,,,,feature,3,unscheduled,"Aug 22, 2018",,,Alpha Ogilo,As a user of authors haven in should be able to see the previous versions of comments made on an article after previous edits,https://www.pivotaltracker.com/story/show/159964893,
+159964894,Users should be able to like a specific comment,"crud, front-end",,,,feature,2,unscheduled,"Aug 22, 2018",,,Alpha Ogilo,,https://www.pivotaltracker.com/story/show/159964894,
+159964895,Users should be able to see their reading stats,front-end,,,,feature,1,unscheduled,"Aug 22, 2018",,,Alpha Ogilo,,https://www.pivotaltracker.com/story/show/159964895,
+158800490,Research on & choose a CSS framework for building all your mockups,"back-end, css, html, javascript, reading-writing, ui/ux, wire-framing/mockup",,,,chore,,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"** Why is this important? **
+Choose one CSS framework that you will consistently use for the entirety of the project. This will be used to construct dumb Mockups for demonstration of Backend functionality & eventually in implementing the Frontend.",https://www.pivotaltracker.com/story/show/158800490,
+158593159,Link Pivotal Tracker with Slack,"back-end, devops",,,,chore,,unscheduled,"Jun 25, 2018",,,Alpha Ogilo,"** Why this is important ** 
+When there is activity on Pivotal tracker, updates automatically show up in a dedicated Slack channel (separate from the team channel).",https://www.pivotaltracker.com/story/show/158593159,
+158593128,Link Github with Slack,"back-end, devops",,,,chore,,unscheduled,"Jun 25, 2018",,,Alpha Ogilo,"** Why this is important **
+When there is activity on Github, they automatically show up as updates in a dedicated Slack channel (separate from the normal team channel, same as the one used for the pivotal updates)
+
+LABELS",https://www.pivotaltracker.com/story/show/158593128,
+158593595,Link Pivotal Tracker with Github,"back-end, devops",,,,chore,,unscheduled,"Jun 25, 2018",,,Alpha Ogilo,"** Why this is important **
+When PRs are made, they automatically show up as comments/commit with their associated stories, giving more context to the story.",https://www.pivotaltracker.com/story/show/158593595,
+158593935,Integrate TravisCI with readme badge,"back-end, continous integration, devops",,,,chore,,unscheduled,"Jun 25, 2018",,,Alpha Ogilo,"** Why is this important? ** 
+This is required to automatically run tests and other preliminary build steps required to ship the next iteration of the product",https://www.pivotaltracker.com/story/show/158593935,
+158757676,Configure Authors Haven to use PostgreSQL as DB Engine,"back-end, databases",,,,chore,,unscheduled,"Jul 2, 2018",,,Alpha Ogilo,"**Why is this Important?** 
+Authors Haven comes with support for MONGODB, a NoSQL Database. PostgreSQL  is an Open Source, fully featured and optimized SQL database engine for production ready environments. Give it a shot!",https://www.pivotaltracker.com/story/show/158757676,
+159232104,Configure ESLint,"back-end, setup",,,,chore,,unscheduled,"Jul 23, 2018",,,franklinchieze,"### Why this is important
+ESLint is the required linter for the project. It'll help check for style violations and flag them.
+
+#### Dev Notes
+We'll be using the style guide configuration below:
+```{
+  ""root"": true,
+  ""extends"": ""airbnb-base"",
+  ""env"": {
+    ""node"": true,
+    ""es6"": true,
+    ""mocha"": true
+  },
+  ""rules"": {
+    ""one-var"": 0,
+    ""one-var-declaration-per-line"": 0,
+    ""new-cap"": 0,
+    ""consistent-return"": 0,
+    ""no-param-reassign"": 0,
+    ""comma-dangle"": 0,
+    ""curly"": [""error"", ""multi-line""],
+    ""import/no-unresolved"": [2, { commonjs: true }],
+    ""no-shadow"": [""error"", { ""allow"": [""req"", ""res"", ""err""] }],
+    ""valid-jsdoc"": [""error"", {
+      ""requireReturn"": true,
+      ""requireReturnType"": true,
+      ""requireParamDescription"": false,
+      ""requireReturnDescription"": true
+    }],
+    ""require-jsdoc"": [""error"", {
+        ""require"": {
+            ""FunctionDeclaration"": true,
+            ""MethodDefinition"": true,
+            ""ClassDeclaration"": true
+        }
+    }]
+  }
+}```
+
+#### Useful Links
+[AirBnB Javascript](https://github.com/airbnb/javascript)
+[ESLint](https://www.npmjs.com/package/eslint)
+[ESLint Config AirBnB](https://www.npmjs.com/package/eslint-config-airbnb)
+[ESLint Plugin Import](https://www.npmjs.com/package/eslint-plugin-import)",https://www.pivotaltracker.com/story/show/159232104,
+159232048,Integrate HoundCI with badge attached to readme,"back-end, continous integration, devops",,,,chore,,unscheduled,"Jul 23, 2018",,,franklinchieze,"### Why this important?
+This is to automatically validate the codebase with standard style guides
+
+Technically HoundCI has no official readme badge but there are services out there with which you can create a HoundCI badge.",https://www.pivotaltracker.com/story/show/159232048,
+159231971,Deploy base application to Heroku,"back-end, continous integration, heroku",,,,chore,,unscheduled,"Jul 23, 2018",,,franklinchieze,"	### Why this is important
+This will enable other users access and use the application.
+
+**Acceptance Criteria**
+GIVEN application URLs
+WHEN user navigates to provided URLs in browser
+THEN user should access the live application
+
+GIVEN a developer raises a `Pull Request`
+WHEN a review app is automatically created
+THEN review app should mirror the Pull Request being raised
+
+### Dev Notes
+`staging` and `production` environments are to be setup and URLs should follow the naming pattern below:
+- `<repo-name>-staging.herokuapp.com` for `staging`
+- `<repo-name>.herokuapp.com` for `production`",https://www.pivotaltracker.com/story/show/159231971,
+159232308,Setup unit testing. Ensure all implemented functionality is tested henceforth,"back-end, testing",,,,chore,,unscheduled,"Jul 23, 2018",,,franklinchieze,"### Why is this important?
+To ensure the back end has all functionality working as intended. You may use Mocha as the test runner and `chai` and `chai-http` for the unit tests.",https://www.pivotaltracker.com/story/show/159232308,
+159232422,Integrate Coveralls code coverage service,"back-end, code quality, devops",,,,chore,,unscheduled,"Jul 23, 2018",,,franklinchieze,"### Why is this important?
+This is to ensure we are properly informed just how well our code base is tested which in turn provides quality assurance for the product",https://www.pivotaltracker.com/story/show/159232422,
+159948397,Document API using swagger,"api, back-end, documentation",,,,feature,1,unscheduled,"Aug 21, 2018",,,Alpha Ogilo,,https://www.pivotaltracker.com/story/show/159948397,
+158757745,Users should receive a JWT on Successful Registration,"authentication, back-end, tokens",,,,feature,2,unscheduled,"Jul 2, 2018",,,Alpha Ogilo,"**Why**
+Users once registered via the registration endpoint, should receive a JWT to be required on all subsequent calls to all other endpoints that require authentication.
+ 
+**Acceptance Criteria**
+
+**GIVEN** user successfully signs up/registers or logs in
+**WHEN** user passes appropriate JSON object to the register and or login endpoint
+**THEN** user should receive a JWT as the response
+
+DEV NOTES
+The app should no longer use sessions, but should use the newly implemented JWT strategy for authentication.
+Passwords **MUST** be encrypted.",https://www.pivotaltracker.com/story/show/158757745,,Write unit test(s),not completed
+158757808,An Email should be sent to a user upon successful registration. User should be able to receive a verification link via email upon successful signup,"3rd party api, back-end, sending emails",,,,feature,2,unscheduled,"Jul 2, 2018",,,Alpha Ogilo,"**Why is this important?** 
+Learning how to send emails using 3rd party API's is invaluable to a developer. Django also has an inbuilt Emailing system too!
+
+_Acceptance Criteria_
+GIVEN I sign up to the Authors Haven Application
+WHEN submitted
+THEN I should receive a verification email with a link to the application. 
+
+**DEV NOTES**
+Options include using sendGrid API for now to achieve the email verification feature.",https://www.pivotaltracker.com/story/show/158757808,,Write unit test(s),not completed
+158757775,Users should receive descriptive signup/Registration validation errors,"authentication, back-end, validation",,,,feature,1,unscheduled,"Jul 2, 2018",,,Alpha Ogilo,"Users should receive a descriptive error message when they enter invalid user parameters in an attempt to signup.
+
+Invalid user parameters includes:
+
+existing user email
+invalid email
+password of length less than 8
+password not being alphanumeric
+
+**Acceptance Criteria**
+scenario 1
+**GIVEN** user supplies invalid parameters for signup
+**WHEN** user hits the signup button
+**THEN** user should receive a descriptive error message telling the user why such details are not acceptable.
+
+scenario 2
+**GIVEN** user supplies a set of valid parameters for signup
+**WHEN** user hits the signup button
+**THEN** user should be successfully signed up.",https://www.pivotaltracker.com/story/show/158757775,,Write unit test(s),not completed
+158757988,Users should be able to reset password reset via email,"authentication, back-end, password-reset functionality",,,,feature,2,unscheduled,"Jul 2, 2018",,,Alpha Ogilo,"** Why is this important? **
+Password reset functionality is missing in our application. Its invaluable in instances where our users forget their login credentials.
+
+**Acceptance Criteria**
+GIVEN I forget my password
+WHEN I request for a reset
+THEN I should receive an email with a reset link to the application.
+
+**DEV NOTES**
+Options include using sendGrid API for now to achieve the email verification feature.",https://www.pivotaltracker.com/story/show/158757988,,Write unit test(s),not completed
+158757849,"Enable Social Login via Google, Facebook and twitter","back-end, social authentication",,,,feature,2,unscheduled,"Jul 2, 2018",,,Alpha Ogilo,"Currently a new user cannot login with their pre-existing social media accounts. He/She can only register and or login with email password combinations
+
+Let's make it happen! Please not that implementation in this case means  **STRICTLY BACKEND** implementation only!",https://www.pivotaltracker.com/story/show/158757849,,Write unit test(s),not completed
+158758408,Users should be able to create their profiles,"api, back-end, crud",,,,feature,2,unscheduled,"Jul 2, 2018",,,Alpha Ogilo,"	**Why this is important**
+Profiles will provide a way to maintain generic and  user specific data/info such as username, bio, contact info etc
+
+**As a User**
+I want to get my profile created once i register to the application.
+I want my profile to display my **bio**, **image/avatar** and any other fields that the ""**we**"" the dev team deem necessary. Lets get **creative!**
+I want to be able to **View** other users profiles , **Edit** my profile but i should **NOT** be able to edit another users profile
+
+**Acceptance Criteria**
+Scenario: 
+Given User registers to be a member of Authors Haven. 
+- Registration is done.
+- User Profile is created. 
+- A timestamp is associated to the profile
+",https://www.pivotaltracker.com/story/show/158758408,,Write unit test(s),not completed
+158758765,Users should be able to create articles,"api, back-end, crud",,,,feature,2,unscheduled,"Jul 2, 2018",,,Alpha Ogilo,"**Why this is important**
+Articles form the backbone of our application and introduces us to **CRUD** which is the building block of most web applications.
+
+**As a User**
+I want to be able to **CREATE** my articles and **READ/ACCESS** articles created by other authors. 
+I want to be able to **ONLY** **UPDATE** and **DELETE** articles  that i have authored.
+
+
+**Acceptance Criteria**
+Scenario:
+An article should at minimum have a **title**, **body**, **description** and support for **images**. Lets not limit ourselves to this creativity is the way to go!
+**Given**  two different users create articles of the same title, the app should generate unique **slugs** such that the articles don't create conflict.
+**Article slugs** should be automatically added to articles if they do not exist .
+**Timestamped** articles",https://www.pivotaltracker.com/story/show/158758765,,Write unit test(s),not completed
+158800684,Users should be able to give a rating to an article,"api, back-end, rating functionality",,,,feature,2,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"**Why this is important**
+Our community as authors is built on trust. Rating each others articles helps to gain and build trust.Leaving a rating is your chance to give other authors a general idea of what we feel about their content
+
+**As a User**
+I want to be able to rate articles authored by others
+
+**Acceptance Criteria**
+Scenario:
+Only authenticated users should be able to provide ratings",https://www.pivotaltracker.com/story/show/158800684,,Write unit test(s),not completed
+158759079,Users should be able to comment on articles,"api, back-end, crud",,,,feature,2,unscheduled,"Jul 2, 2018",,,Alpha Ogilo,"**Why this is important**
+Comments allow authors to get feedback on their articles.. We all love to know what people think about what we put out to the world......
+
+**As a User**
+I want to be able to make  a comment(s) on articles, both authored by me and those not authored by me.
+
+**Acceptance Criteria**
+Scenario:
+Only authenticated users should be able to comments on articles.
+Successive comments should be threaded
+Timestamped comments.",https://www.pivotaltracker.com/story/show/158759079,,Write unit test(s),not completed
+158759201,Users should be able to like and or dislike articles ,"api, back-end, like-dislike functionality",,,,feature,1,unscheduled,"Jul 2, 2018",,,Alpha Ogilo,"**Why this is important**
+Lets appreciate those authors who go out of their way to create good content with a Like(clap) and encourage those authors who do not meet our expectations with a dislike.
+
+**As a User**
+I want to be able to like or dislike articles  articles, both authored by me and those not authored by me.
+
+**Acceptance Criteria**
+Scenario:
+Only **authenticated** users should be able to like or dislike articles.
+",https://www.pivotaltracker.com/story/show/158759201,,Write unit test(s),not completed
+158759246,Users should be able to follow each other,"api, back-end, follow authors functionality",,,,feature,1,unscheduled,"Jul 2, 2018",,,Alpha Ogilo,"**Why this is important**
+We are a community of like minded authors/content creators. Lets keep tabs by following each other and by extension the articles we author.
+
+**As a User**
+I want to be able to follow and or unfollow other authors. 
+
+**Acceptance Criteria**
+Scenario 1:
+Only **authenticated** users should be able to follow and or unfollow other users.
+
+Scenario 2:
+I need a view to manage those I follow and be able to see those who follow me",https://www.pivotaltracker.com/story/show/158759246,,Write unit test(s),not completed
+159040433,Users should be able to receive notifications,"api, back-end, notifications",,,,feature,3,unscheduled,"Jul 13, 2018",,,franklinchieze,"**Why this is important**
+Notifications give users to opportunity to know what they may have missed which may be important to them.
+
+**As a User**
+I want to be able to receive notifications when users I follow publish new articles.
+
+I want to be able to receive notifications when articles I favorited have new interactions (like new comments).
+
+I want to be able to opt in and out of these notifications.
+
+**Developer Note**
+
+There may be 2 types of notifications: email notifications and in-app notifications.
+
+Email notifications are sent as email messages to the email address the user submitted during registration.
+Users should be able to opt out (and in) of this type of notification.
+
+In-app notifications show up in the app. This may be visible on a notification page or some other view, as the team may choose.
+The team may choose to give users the ability to opt out of this type of notification.",https://www.pivotaltracker.com/story/show/159040433,,Write unit test(s),not completed
+158759293,Users should be able to tag their articles,"api, back-end, tagging",,,,feature,1,unscheduled,"Jul 2, 2018",,,Alpha Ogilo,"**Why this is important**
+Tagging refers to the metadata that is assigned to a piece of content by the content creator and the readers/users of the content. Tagging allows for organization and or categorization of content
+
+**As a User**
+I want to be able to create tags for the  articles that I author. 
+
+**Acceptance Criteria**
+Scenario:
+Only **authenticated** users should be able to tag articles .
+",https://www.pivotaltracker.com/story/show/158759293,,Write unit test(s),not completed
+158759339,Pagination support for articles,"api, back-end, pagination",,,,feature,1,unscheduled,"Jul 2, 2018",,,Alpha Ogilo,Pagination support is lacking for our articles. Reading can be a nightmare when we have so many articles. Lets get this done!,https://www.pivotaltracker.com/story/show/158759339,,Write unit test(s),not completed
+159948248,List Users functionality,"api, authentication, back-end",,,,feature,1,unscheduled,"Aug 21, 2018",,,Alpha Ogilo,A logged in/authenticated user should be able to see the the list and profiles of existing authors. He should however not be able to edit the profiles,https://www.pivotaltracker.com/story/show/159948248,
+158759367,Add Search Functionality and Custom filtering based on parameters,back-end,,,,feature,3,unscheduled,"Jul 2, 2018",,,Alpha Ogilo,"**Why this is important**
+Looking for article(s) in their dozens can be daunting. Would it be easier if we had a search functionality with custom filters? I bet it would.These filters avail the members to create a search criterion of their own which helps them to narrow it down if they don’t know the title exactly.
+
+**As a User**
+I want to be able to search for articles by author, article title and tag/keyword or search by filtering.
+Users would be able to filter articles by author, article title and tag/keywords, this would ensure a user only gets an article that matches ONLY the criteria that matches the criteria for the article they want.
+
+Note:
+If only author is supplied - the filter will only filter by author
+
+If only tag is supplied - the filter will only filter by tag
+
+if only keywords are supplied, the filter will only filter by keywords
+
+If any of the above is supplied, the filter filters by the supplied filters
+
+**Acceptance Criteria**
+Scenario:
+Any user (authenticated or not) should be able to search for articles on our platform .",https://www.pivotaltracker.com/story/show/158759367,,Write unit test(s),not completed
+159948255,Users should be able to see time it takes to read an article,"algorithims, back-end",,,,feature,1,unscheduled,"Aug 21, 2018",,,Alpha Ogilo,,https://www.pivotaltracker.com/story/show/159948255,
+159948311,Users should be able to share articles across different channels,"back-end, social sharing functionality",,,,feature,1,unscheduled,"Aug 21, 2018",,,Alpha Ogilo,"As an authenticated user, i should be able to share articles; both mine and others via email and social media platforms",https://www.pivotaltracker.com/story/show/159948311,
+159948323,Users should be able to bookmark articles for reading later,"algorithims, back-end, bookmarking",,,,feature,1,unscheduled,"Aug 21, 2018",,,Alpha Ogilo,,https://www.pivotaltracker.com/story/show/159948323,
+159948353,Users should be able to report an article,"api, back-end, escalation",,,,feature,2,unscheduled,"Aug 21, 2018",,,Alpha Ogilo,As an authenticated user i should be able to report articles that violate terms of agreement or are plagiarised to the authors haven admin for removal and or any other actions as per the terms of engagement,https://www.pivotaltracker.com/story/show/159948353,
+159948355,Users should be able to like a specific comment,"api, back-end, crud",,,,feature,2,unscheduled,"Aug 21, 2018",,,Alpha Ogilo,,https://www.pivotaltracker.com/story/show/159948355,
+159948364,Users should be able to see their reading stats,"algorithims, back-end",,,,feature,1,unscheduled,"Aug 21, 2018",,,Alpha Ogilo,,https://www.pivotaltracker.com/story/show/159948364,
+159948795,Role based access control functionality,"api, back-end, roles",,,,feature,3,unscheduled,"Aug 21, 2018",,,Alpha Ogilo,There needs to be roles and permissions functionality implemented. For example and admin should have a unique page where he/she  can assign various roles and permissions to various users within the system to access and or manipulate data.,https://www.pivotaltracker.com/story/show/159948795,
+159949050,Users should be able to highlight and comment on any text in an article,"api, back-end",,,,feature,3,unscheduled,"Aug 22, 2018",,,Alpha Ogilo,As a user i should be able to highlight any text in an article(created by me or not) and comment on it.,https://www.pivotaltracker.com/story/show/159949050,
+159949059,Comments should be able to track edit history,"algorithims, api, back-end",,,,feature,3,unscheduled,"Aug 22, 2018",,,Alpha Ogilo,As a user i should be able to see the previous versions of comments made on an article after previous edits.,https://www.pivotaltracker.com/story/show/159949059,
