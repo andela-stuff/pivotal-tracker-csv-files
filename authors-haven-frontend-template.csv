@@ -1,25 +1,13 @@
 Id,Title,Labels,Iteration,Iteration Start,Iteration End,Type,Estimate,Current State,Created at,Accepted at,Deadline,Requested By,Description,URL,Owned By
-158789467,Users should be able to Login to Authors Haven,"",,,,feature,2,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"**Why**
-To be able to use the application and access authenticated routes, a login form should be presented to users.
-
-**Acceptance Criteria**
-
-**GIVEN** user successfully logs in.
-**WHEN** user passes appropriate login parameters 
-**THEN** user should be able to login.
-
-DEV NOTES
-The login in form should present to the user **descriptive** validation errors incase of any.
-The Login page should present a link for users to **Reset** their passwords incase of forgotten credentials
-Kindly **do not** user Third party packages and or Libraries such as ReduxForm. Use plain html ,CSS Forms with any front end framework such as Bootstrap, MaterializeCSS etc",https://www.pivotaltracker.com/story/show/158789467,
-158790088,Users should be able to Login via Google Facebook or Twitter,"",,,,feature,1,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"On the Login route, users should also be able to  Login via their favorite social media platform.Design of this functionality from a UI/UX perspective is up to us!",https://www.pivotaltracker.com/story/show/158790088,
-158800898,Users should be able to view and edit their profiles,"",,,,feature,2,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"**Why this is important**
-Users should be able to ammend/edit  their profiles depending on change of preference to the full disclosure of the individual user
-
-**As a User**
-I want to have access to my profile.
-I want to be able to edit my profile to my preference.",https://www.pivotaltracker.com/story/show/158800898,
-158789157,Users should be able Signup/Register to Authors Haven,"",,,,feature,2,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"**Why**
+159948883,Setup an empty react project,"front-end, setup",,,,chore,,unscheduled,"Aug 22, 2018",,,Alpha Ogilo,Use the create-react-app tool to setup the react boilerplate using the Airbnb linting option. There is also latitude to create a blank react project from scratch using Webpack 4 and Babel.,https://www.pivotaltracker.com/story/show/159948883,
+159949225,Setup Redux,"front-end, setup",,,,chore,,unscheduled,"Aug 22, 2018",,,Alpha Ogilo,Create the appropriate folder/file structure for React/Redux workflow,https://www.pivotaltracker.com/story/show/159949225,
+159949032,Write tests for all functionality/components created.,"front-end, testing",,,,chore,,unscheduled,"Aug 22, 2018",,,Alpha Ogilo,All components should have tests: Unit tests thereafter integration and end to end tests,https://www.pivotaltracker.com/story/show/159949032,
+159949133,Update TravisCI to run tests,"continous-integration, devops, front-end",,,,chore,,unscheduled,"Aug 22, 2018",,,Alpha Ogilo,,https://www.pivotaltracker.com/story/show/159949133,
+159949239,Setup react router version 4 (React-router-dom),"front-end, set",,,,chore,,unscheduled,"Aug 22, 2018",,,Alpha Ogilo,"We are going to use react router for our client. Install and configure the router creating a dummy route for login and the ""/"" page to test the configuration.
+Create a components and views file structure where view pages are in the views folder but individual components are in the components folder.",https://www.pivotaltracker.com/story/show/159949239,
+159949152,Setup SASS processing on the client,"css, front-end, setup",,,,chore,,unscheduled,"Aug 22, 2018",,,Alpha Ogilo,Install and setup sass pre-processing on the application to enables the use of both .scss and .css files on the client,https://www.pivotaltracker.com/story/show/159949152,
+159949275,Run codeclimate test coverage,"continous-integration, devops",,,,chore,,unscheduled,"Aug 22, 2018",,,Alpha Ogilo,Run codeclimate test coverage after passing the tests from circleci,https://www.pivotaltracker.com/story/show/159949275,
+158789157,Users should be able Signup/Register to Authors Haven,"authentication, front-end",,,,feature,2,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"**Why**
 To be able to use the application and access authenticated routes, Users should be able to Signup and or Register using  Sign up forms on the signup route.
 
 **Acceptance Criteria**
@@ -33,16 +21,28 @@ The sign up form should present to the user **descriptive** validation errors in
 The user should receive verification link on email upon successful registration 
 Kindly **do not** user Third party packages and or Libraries such as ReduxForm. Use plain html ,CSS Forms with any front end framework such as Bootstrap,MaterializeCSS etc.
 ",https://www.pivotaltracker.com/story/show/158789157,
-158801112,Users should be able to Search for articles.,"",,,,feature,2,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"**Why this is important**
-Looking for article(s) in their dozens can be daunting. Would it be easier if we had a search box/Field? I bet it would.
-
-**As a User**
-I want to be able to search for articles by author, article title and tag/keyword or search by filtering.
+159949701,Users should be able to presented with a reset password link,"authentication, front-end",,,,feature,1,unscheduled,"Aug 22, 2018",,,Alpha Ogilo,A user should be presented with a button and or link to reset their passwords on the SignUp/Register component,https://www.pivotaltracker.com/story/show/159949701,
+158789467,Users should be able to Login to Authors Haven,"authentication, front-end",,,,feature,2,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"**Why**
+To be able to use the application and access authenticated routes, a login form should be presented to users.
 
 **Acceptance Criteria**
-Scenario:
-Any user (authenticated or not) should be able to search for articles on our platform .",https://www.pivotaltracker.com/story/show/158801112,
-158801194,Users should be able to create articles,"",,,,feature,2,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"**Why this is important**
+
+**GIVEN** user successfully logs in.
+**WHEN** user passes appropriate login parameters 
+**THEN** user should be able to login.
+
+DEV NOTES
+The login in form should present to the user **descriptive** validation errors incase of any.
+The Login page should present a link for users to **Reset** their passwords incase of forgotten credentials
+Kindly **do not** user Third party packages and or Libraries such as ReduxForm. Use plain html ,CSS Forms with any front end framework such as Bootstrap, MaterializeCSS etc",https://www.pivotaltracker.com/story/show/158789467,
+158790088,Users should be able to Login via Google Facebook or Twitter,"front-end, social authentication",,,,feature,1,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"On the Login route, users should also be able to  Login via their favorite social media platform.Design of this functionality from a UI/UX perspective is up to us!",https://www.pivotaltracker.com/story/show/158790088,
+158800898,Users should be able to view and edit their profiles,"crud, front-end",,,,feature,2,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"**Why this is important**
+Users should be able to ammend/edit  their profiles depending on change of preference to the full disclosure of the individual user
+
+**As a User**
+I want to have access to my profile.
+I want to be able to edit my profile to my preference.",https://www.pivotaltracker.com/story/show/158800898,
+158801194,Users should be able to create articles,"crud, front-end",,,,feature,2,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"**Why this is important**
 Articles form the backbone of our application and introduces us to **CRUD** which is the building block of most web applications.
 
 **As a User**
@@ -50,8 +50,8 @@ I want to be able to create my articles and read/access articles created by othe
 I want to be able to **ONLY** update and delete articles  that i have authored.
 Let's get creative in the design of this.
 ",https://www.pivotaltracker.com/story/show/158801194,
-158802035,Users should be able to rate articles,"",,,,feature,2,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,A 5 star rating system is the end goal. Lets have authenticated users get a visual feedback of their average rating of their articles,https://www.pivotaltracker.com/story/show/158802035,
-158802574,Users should be able to comment on articles,"",,,,feature,2,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"Why this is important
+158802035,Users should be able to rate articles,"front-end, rating functionality",,,,feature,2,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,A 5 star rating system is the end goal. Lets have authenticated users get a visual feedback of their average rating of their articles,https://www.pivotaltracker.com/story/show/158802035,
+158802574,Users should be able to comment on articles,"crud, front-end",,,,feature,2,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"Why this is important
 Comments allow authors to get feedback on their articles.. We all love to know what people think about what we put out to the world......
 
 As a User
@@ -62,8 +62,8 @@ Scenario:
 Only authenticated users should be able to comments on articles.
 Successive comments should be threaded
 Timestamped comments.",https://www.pivotaltracker.com/story/show/158802574,
-158802101,Pagination support for articles,"",,,,feature,1,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,Add pagination to our articles to make article traversal easier.,https://www.pivotaltracker.com/story/show/158802101,
-158802297,Users should be able to like and or dislike articles,"",,,,feature,2,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"**Why this is important**
+158802101,Pagination support for articles,"front-end, pagination",,,,feature,1,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,Add pagination to our articles to make article traversal easier.,https://www.pivotaltracker.com/story/show/158802101,
+158802297,Users should be able to like and or dislike articles,"front-end, like-dislike functionality",,,,feature,2,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"**Why this is important**
 Lets appreciate those authors who go out of their way to create good content with a Like and encourage those authors who do not meet our expectations with a dislike.
 
 **As a User**
@@ -73,7 +73,7 @@ I want to be able to like or dislike articles  articles, both authored by me and
 Scenario:
 Only **authenticated** users should be able to like or dislike articles.
 ",https://www.pivotaltracker.com/story/show/158802297,
-158802907, Article tags should be present in all relevant views,"",,,,feature,1,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"**Why this is important**
+158802907, Article tags should be present in all relevant views,front-end,,,,feature,1,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"**Why this is important**
 Tagging refers to the metadata that is assigned to a piece of content by the content creator and the readers/users of the content. Tagging allows for organization and or categorization of content
 
 **As a User**
@@ -82,13 +82,13 @@ I want to be able to view various article tags to enable easy filtering and navi
 **Acceptance Criteria**
 Scenario:
 Only **authenticated** users should be able to tag articles .",https://www.pivotaltracker.com/story/show/158802907,
-159034805,Users should be able to share articles on social media,"",,,,feature,2,unscheduled,"Jul 13, 2018",,,franklinchieze,"**Why this is important**
-The ability to share/tweet/post an article on social media increases the reach of the article and, hence, the popularity of the platform.
+159034805,Users should be able to share articles on social media and via email,"front-end, social-sharing",,,,feature,2,unscheduled,"Jul 13, 2018",,,franklinchieze,"**Why this is important**
+The ability to share/tweet/post an article on social media and through email increases the reach of the article and, hence, the popularity of the platform.
 
 **As a User**
 I want to be able to share/post/tweet articles on social media platforms like Facebook and Twitter.
 ",https://www.pivotaltracker.com/story/show/159034805,
-158803024,Users should be able to follow each other,"",,,,feature,1,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"**Why this is important**
+158803024,Users should be able to follow each other,"follow authors functionality, front-end",,,,feature,1,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"**Why this is important**
 We are a community of like minded authors/content creators.Lets keep tabs by following each other and by extension the articles we author.
 
 **As a User**
@@ -101,7 +101,7 @@ Only **authenticated** users should be able to follow and or unfollow other user
 Scenario 2:
 I need a view to manage those I follow and be able to see those who follow me
 ",https://www.pivotaltracker.com/story/show/158803024,
-159040867,Users should be able to view notifications,"",,,,feature,2,unscheduled,"Jul 13, 2018",,,franklinchieze,"**Why this is important**
+159040867,Users should be able to view notifications,"front-end, notifications",,,,feature,2,unscheduled,"Jul 13, 2018",,,franklinchieze,"**Why this is important**
 Notifications give users to opportunity to know what they may have missed which may be important to them.
 
 **As a User**
@@ -109,8 +109,35 @@ I want to be able to view notifications that are relevant to me.
 
 I want to be able to see a _badge_ UI component that shows how many new notifications I have.
 ",https://www.pivotaltracker.com/story/show/159040867,
-159041772,Users should be able to opt in and out of notifications,"",,,,feature,2,unscheduled,"Jul 13, 2018",,,franklinchieze,"**Why this is important**
+159041772,Users should be able to opt in and out of notifications,"front-end, notifications",,,,feature,2,unscheduled,"Jul 13, 2018",,,franklinchieze,"**Why this is important**
 Notifications give users to opportunity to know what they may have missed which may be important to them. However, forcing notifications on users may be seen as annoying. Users should have the ability to opt in and out of (or turn on and off) notifications.
 
 **As a User**
 I want to be able to opt in and out of (or turn on and off) notifications.",https://www.pivotaltracker.com/story/show/159041772,
+158801112,Add Search Functionality and Custom filtering based on parameters,"",,,,feature,3,unscheduled,"Jul 3, 2018",,,Alpha Ogilo,"**Why this is important**
+Looking for article(s) in their dozens can be daunting. Would it be easier if we had a search functionality with custom filters? I bet it would.These filters avail the members to create a search criterion of their own which helps them to narrow it down if they don’t know the title exactly.
+
+**As a User**
+I want to be able to search for articles by author, article title and tag/keyword or search by filtering.
+Users would be able to filter articles by author, article title and tag/keywords, this would ensure a user only gets an article that matches ONLY the criteria that matches the criteria for the article they want.
+
+Note:
+If only author is supplied - the filter will only filter by author
+
+If only tag is supplied - the filter will only filter by tag
+
+if only keywords are supplied, the filter will only filter by keywords
+
+If any of the above is supplied, the filter filters by the supplied filters
+
+**Acceptance Criteria**
+Scenario:
+Any user (authenticated or not) should be able to search for articles on our platform .",https://www.pivotaltracker.com/story/show/158801112,
+159950063,Users should be able to see time it takes to read an article,"algorithms, front-end",,,,feature,1,unscheduled,"Aug 22, 2018",,,Alpha Ogilo,,https://www.pivotaltracker.com/story/show/159950063,
+159950094,Bookmark articles for reading later,"",,,,feature,1,unscheduled,"Aug 22, 2018",,,Alpha Ogilo,"Users should be able to bookmark articles for reading later via a bookmark tab, button or link",https://www.pivotaltracker.com/story/show/159950094,
+159950186,List Bookmarked articles,"bookmarking, front-end",,,,feature,2,unscheduled,"Aug 22, 2018",,,Alpha Ogilo,An authenticated user should be able to see all his bookmarked articles in his/her profile and navigate to them,https://www.pivotaltracker.com/story/show/159950186,
+159950225,Users should be able to report an article,"escalation, front-end",,,,feature,1,unscheduled,"Aug 22, 2018",,,Alpha Ogilo,As an authenticated user i should be able to report articles that violate terms of agreement or are plagiarised to the authors haven admin for removal and or any other actions as per the terms of engagement. Lets get creative in the way that we display the ability to do reporting on the frontend,https://www.pivotaltracker.com/story/show/159950225,
+159950344,Users should be able to highlight and comment on any text in an article,"css, front-end, html, jsx",,,,feature,3,unscheduled,"Aug 22, 2018",,,Alpha Ogilo,As a user i should be able to highlight any text in an article(created by me or not) and comment on it via a text box and or any visual representation of your choice ,https://www.pivotaltracker.com/story/show/159950344,
+159950432,Comments should be able to track edit history,"",,,,feature,3,unscheduled,"Aug 22, 2018",,,Alpha Ogilo,As a user of authors haven in should be able to see the previous versions of comments made on an article after previous edits,https://www.pivotaltracker.com/story/show/159950432,
+159950471,Users should be able to like a specific comment,"crud, front-end",,,,feature,2,unscheduled,"Aug 22, 2018",,,Alpha Ogilo,,https://www.pivotaltracker.com/story/show/159950471,
+159950502,Users should be able to see their reading stats,front-end,,,,feature,1,unscheduled,"Aug 22, 2018",,,Alpha Ogilo,,https://www.pivotaltracker.com/story/show/159950502,
