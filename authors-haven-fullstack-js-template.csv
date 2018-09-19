@@ -1,6 +1,4 @@
 Id,Title,Labels,Iteration,Iteration Start,Iteration End,Type,Estimate,Current State,Created at,Accepted at,Deadline,Requested By,Description,URL,Owned By,Task,Task Status
-4056432,AH React/Redux,front-end,,,,epic,,,"Aug 22, 2018",,,,Frontend related stories to be implemented in React/Redux,https://www.pivotaltracker.com/epic/show/4056432,,,
-4056429,AH Node/Express Backend,back-end,,,,epic,,,"Aug 22, 2018",,,,Backend API related stories in Node/Express,https://www.pivotaltracker.com/epic/show/4056429,,,
 159964865,Setup an empty react project,"front-end, setup",,,,chore,,unscheduled,"Aug 22, 2018",,,Alpha Ogilo,Use the create-react-app tool to setup the react boilerplate using the Airbnb linting option. There is also latitude to create a blank react project from scratch using Webpack 4 and Babel.,https://www.pivotaltracker.com/story/show/159964865,
 159964866,Setup Redux,"front-end, setup",,,,chore,,unscheduled,"Aug 22, 2018",,,Alpha Ogilo,Create the appropriate folder/file structure for React/Redux workflow,https://www.pivotaltracker.com/story/show/159964866,
 159964867,Write tests for all functionality/components created.,"front-end, testing",,,,chore,,unscheduled,"Aug 22, 2018",,,Alpha Ogilo,All components should have tests: Unit tests thereafter integration and end to end tests,https://www.pivotaltracker.com/story/show/159964867,
